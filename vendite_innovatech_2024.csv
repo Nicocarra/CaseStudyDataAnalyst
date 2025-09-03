@@ -1,0 +1,1001 @@
+ID_Ordine,Data_Ordine,Cliente_ID,Nome_Cliente,Servizio_Fornito,Consulente_ID,Costo_Servizio,Ore_Lavorate,Regione_Geografica,Stato_Pagamento
+1,02/08/2024,C0001,Cliente_1,Audit di Sicurezza,T01,7748.19,72,Estero,Pagato
+2,02/09/2024,C0002,Cliente_2,Supporto Tecnico,T01,3333.3,31,Nord Italia,Pagato
+3,07/10/2024,C0003,Cliente_3,Supporto Tecnico,T01,4466.3,43,Estero,In Sospeso
+4,04/11/2024,C0004,Cliente_4,Supporto Tecnico,T03,2460.81,26,Nord Italia,Pagato
+5,02/07/2024,C0005,Cliente_5,Migrazione Cloud,T04,20462.05,206,Centro Italia,In Sospeso
+6,19/07/2024,C0006,Cliente_6,Sviluppo Web,T04,15086.58,150,Sud Italia,Pagato
+7,01/09/2024,C0007,Cliente_7,Audit di Sicurezza,T02,9146.58,89,Nord Italia,In Sospeso
+8,01/01/2024,C0008,Cliente_8,Sviluppo Web,T02,13792.33,133,Sud Italia,In Ritardo
+9,03/07/2024,C0009,Cliente_9,Audit di Sicurezza,T02,6892.42,65,Nord Italia,Pagato
+10,28/08/2024,C0010,Cliente_10,Sviluppo Web,T01,11260.99,113,Estero,Pagato
+11,17/07/2024,C0011,Cliente_11,Migrazione Cloud,T01,16633.25,160,Estero,In Sospeso
+12,06/06/2024,C0012,Cliente_12,Audit di Sicurezza,T02,9095.4,99,Sud Italia,In Ritardo
+13,27/10/2024,C0013,Cliente_13,Audit di Sicurezza,T03,5252.95,53,Nord Italia,In Sospeso
+14,17/04/2024,C0014,Cliente_14,Audit di Sicurezza,T03,6063.5,58,Sud Italia,Pagato
+15,30/08/2024,C0015,Cliente_15,Migrazione Cloud,T02,21746.25,227,Estero,In Ritardo
+16,11/06/2024,C0016,Cliente_16,Supporto Tecnico,T04,3705.89,36,Sud Italia,In Sospeso
+17,02/08/2024,C0017,Cliente_17,Supporto Tecnico,T03,3598.9,38,Centro Italia,In Ritardo
+18,09/02/2024,C0018,Cliente_18,Sviluppo Web,T01,12676.64,116,Centro Italia,Pagato
+19,16/05/2024,C0019,Cliente_19,Supporto Tecnico,T04,4929.51,45,Nord Italia,Pagato
+20,07/12/2024,C0020,Cliente_20,Sviluppo Web,T04,17634.48,190,Estero,Pagato
+21,06/01/2024,C0021,Cliente_21,Sviluppo Web,T01,15721.98,150,Nord Italia,In Sospeso
+22,18/01/2024,C0022,Cliente_22,Migrazione Cloud,T01,24799.0,236,Centro Italia,In Sospeso
+23,11/03/2024,C0023,Cliente_23,Supporto Tecnico,T02,2004.83,21,Estero,In Ritardo
+24,22/10/2024,C0024,Cliente_24,Sviluppo Web,T03,10200.14,100,Estero,In Sospeso
+25,29/09/2024,C0025,Cliente_25,Audit di Sicurezza,T04,6484.67,64,Sud Italia,In Sospeso
+26,14/06/2024,C0026,Cliente_26,Migrazione Cloud,T03,18193.25,169,Centro Italia,Pagato
+27,03/09/2024,C0027,Cliente_27,Audit di Sicurezza,T03,5374.77,53,Sud Italia,Pagato
+28,10/12/2024,C0028,Cliente_28,Sviluppo Web,T04,17231.95,161,Nord Italia,In Ritardo
+29,06/02/2024,C0029,Cliente_29,Sviluppo Web,T03,15097.58,160,Nord Italia,In Sospeso
+30,02/02/2024,C0030,Cliente_30,Sviluppo Web,T02,14186.4,148,Nord Italia,In Sospeso
+31,11/08/2024,C0031,Cliente_31,Migrazione Cloud,T02,22155.94,211,Centro Italia,Pagato
+32,03/07/2024,C0032,Cliente_32,Migrazione Cloud,T01,21835.06,212,Sud Italia,Pagato
+33,05/08/2024,C0033,Cliente_33,Supporto Tecnico,T03,3923.93,36,Nord Italia,In Sospeso
+34,01/12/2024,C0034,Cliente_34,Supporto Tecnico,T02,2628.83,24,Sud Italia,Pagato
+35,22/04/2024,C0035,Cliente_35,Supporto Tecnico,T02,3715.43,41,Estero,In Ritardo
+36,25/10/2024,C0036,Cliente_36,Sviluppo Web,T03,12181.95,131,Estero,In Sospeso
+37,31/01/2024,C0037,Cliente_37,Supporto Tecnico,T02,1999.58,21,Estero,In Sospeso
+38,28/12/2024,C0038,Cliente_38,Migrazione Cloud,T04,20037.57,183,Nord Italia,Pagato
+39,08/05/2024,C0039,Cliente_39,Audit di Sicurezza,T01,6569.06,69,Sud Italia,In Sospeso
+40,22/07/2024,C0040,Cliente_40,Supporto Tecnico,T03,4078.79,40,Nord Italia,Pagato
+41,16/10/2024,C0041,Cliente_41,Migrazione Cloud,T01,18227.34,189,Nord Italia,In Ritardo
+42,20/05/2024,C0042,Cliente_42,Sviluppo Web,T01,11722.71,121,Nord Italia,In Ritardo
+43,25/03/2024,C0043,Cliente_43,Supporto Tecnico,T01,3046.21,32,Estero,In Sospeso
+44,08/03/2024,C0044,Cliente_44,Supporto Tecnico,T01,4632.61,46,Sud Italia,In Ritardo
+45,08/09/2024,C0045,Cliente_45,Audit di Sicurezza,T02,7178.8,67,Estero,In Sospeso
+46,17/09/2024,C0046,Cliente_46,Supporto Tecnico,T02,4862.39,45,Sud Italia,Pagato
+47,01/08/2024,C0047,Cliente_47,Audit di Sicurezza,T02,6977.06,67,Estero,In Ritardo
+48,18/12/2024,C0048,Cliente_48,Supporto Tecnico,T02,2541.08,25,Sud Italia,Pagato
+49,22/05/2024,C0049,Cliente_49,Migrazione Cloud,T04,15048.03,165,Nord Italia,In Sospeso
+50,07/08/2024,C0050,Cliente_50,Supporto Tecnico,T01,1941.19,21,Centro Italia,Pagato
+51,10/05/2024,C0051,Cliente_51,Migrazione Cloud,T03,17212.07,165,Estero,In Ritardo
+52,15/04/2024,C0052,Cliente_52,Supporto Tecnico,T01,2475.43,27,Estero,In Sospeso
+53,29/06/2024,C0053,Cliente_53,Audit di Sicurezza,T03,10498.93,96,Sud Italia,Pagato
+54,11/05/2024,C0054,Cliente_54,Supporto Tecnico,T02,4149.72,45,Sud Italia,In Ritardo
+55,08/07/2024,C0055,Cliente_55,Sviluppo Web,T04,13300.76,138,Estero,Pagato
+56,25/02/2024,C0056,Cliente_56,Sviluppo Web,T04,17715.44,165,Centro Italia,In Ritardo
+57,23/05/2024,C0057,Cliente_57,Migrazione Cloud,T02,21592.42,237,Estero,Pagato
+58,19/03/2024,C0058,Cliente_58,Supporto Tecnico,T04,4358.13,47,Centro Italia,Pagato
+59,12/07/2024,C0059,Cliente_59,Sviluppo Web,T04,17165.84,181,Sud Italia,In Ritardo
+60,02/01/2024,C0060,Cliente_60,Supporto Tecnico,T01,4827.46,44,Estero,Pagato
+61,17/11/2024,C0061,Cliente_61,Supporto Tecnico,T03,3061.61,31,Centro Italia,Pagato
+62,28/01/2024,C0062,Cliente_62,Audit di Sicurezza,T04,8490.68,79,Estero,Pagato
+63,23/12/2024,C0063,Cliente_63,Audit di Sicurezza,T04,8125.06,75,Nord Italia,In Ritardo
+64,18/04/2024,C0064,Cliente_64,Audit di Sicurezza,T04,8497.14,88,Estero,In Ritardo
+65,07/12/2024,C0065,Cliente_65,Migrazione Cloud,T01,25670.6,237,Sud Italia,In Ritardo
+66,30/09/2024,C0066,Cliente_66,Sviluppo Web,T04,16438.27,153,Centro Italia,In Sospeso
+67,10/04/2024,C0067,Cliente_67,Migrazione Cloud,T04,15594.5,168,Centro Italia,In Ritardo
+68,15/10/2024,C0068,Cliente_68,Supporto Tecnico,T01,2110.91,23,Nord Italia,In Ritardo
+69,05/03/2024,C0069,Cliente_69,Audit di Sicurezza,T02,6070.16,60,Nord Italia,In Ritardo
+70,20/06/2024,C0070,Cliente_70,Migrazione Cloud,T01,18088.72,184,Centro Italia,In Sospeso
+71,21/03/2024,C0071,Cliente_71,Supporto Tecnico,T03,3187.95,35,Centro Italia,Pagato
+72,13/04/2024,C0072,Cliente_72,Audit di Sicurezza,T03,7701.82,78,Sud Italia,In Ritardo
+73,12/12/2024,C0073,Cliente_73,Supporto Tecnico,T01,4052.04,45,Centro Italia,In Ritardo
+74,24/11/2024,C0074,Cliente_74,Audit di Sicurezza,T01,7929.14,87,Sud Italia,In Sospeso
+75,13/01/2024,C0075,Cliente_75,Supporto Tecnico,T03,3646.14,40,Nord Italia,In Sospeso
+76,24/08/2024,C0076,Cliente_76,Audit di Sicurezza,T02,9209.29,92,Nord Italia,Pagato
+77,18/12/2024,C0077,Cliente_77,Sviluppo Web,T02,17119.51,166,Estero,In Sospeso
+78,03/01/2024,C0078,Cliente_78,Audit di Sicurezza,T01,5405.27,56,Centro Italia,In Sospeso
+79,19/07/2024,C0079,Cliente_79,Sviluppo Web,T02,16396.07,170,Centro Italia,In Ritardo
+80,16/02/2024,C0080,Cliente_80,Migrazione Cloud,T03,19428.0,209,Estero,In Sospeso
+81,23/02/2024,C0081,Cliente_81,Migrazione Cloud,T01,22503.01,243,Sud Italia,In Ritardo
+82,06/12/2024,C0082,Cliente_82,Sviluppo Web,T01,17264.58,181,Sud Italia,Pagato
+83,04/05/2024,C0083,Cliente_83,Supporto Tecnico,T03,2951.89,27,Estero,In Sospeso
+84,12/08/2024,C0084,Cliente_84,Migrazione Cloud,T03,22773.98,234,Nord Italia,In Sospeso
+85,26/04/2024,C0085,Cliente_85,Sviluppo Web,T04,19709.3,190,Nord Italia,In Ritardo
+86,11/07/2024,C0086,Cliente_86,Sviluppo Web,T03,12030.37,116,Estero,In Ritardo
+87,22/11/2024,C0087,Cliente_87,Supporto Tecnico,T04,4570.22,45,Estero,In Sospeso
+88,10/08/2024,C0088,Cliente_88,Sviluppo Web,T02,14013.86,152,Centro Italia,Pagato
+89,02/01/2024,C0089,Cliente_89,Migrazione Cloud,T02,15199.78,156,Sud Italia,In Ritardo
+90,24/12/2024,C0090,Cliente_90,Sviluppo Web,T04,18686.59,191,Sud Italia,Pagato
+91,28/06/2024,C0091,Cliente_91,Audit di Sicurezza,T04,7100.92,76,Centro Italia,Pagato
+92,11/12/2024,C0092,Cliente_92,Supporto Tecnico,T03,4519.78,46,Nord Italia,In Sospeso
+93,28/12/2024,C0093,Cliente_93,Migrazione Cloud,T01,18417.55,190,Estero,Pagato
+94,16/04/2024,C0094,Cliente_94,Migrazione Cloud,T01,23196.85,231,Centro Italia,Pagato
+95,23/02/2024,C0095,Cliente_95,Migrazione Cloud,T02,24812.2,247,Sud Italia,In Ritardo
+96,01/08/2024,C0096,Cliente_96,Supporto Tecnico,T04,3004.36,32,Centro Italia,In Ritardo
+97,09/04/2024,C0097,Cliente_97,Supporto Tecnico,T01,4475.47,44,Estero,In Ritardo
+98,02/10/2024,C0098,Cliente_98,Sviluppo Web,T01,13718.7,142,Estero,Pagato
+99,04/09/2024,C0099,Cliente_99,Sviluppo Web,T03,20557.01,198,Centro Italia,In Ritardo
+100,27/11/2024,C0100,Cliente_100,Audit di Sicurezza,T02,8413.33,87,Nord Italia,Pagato
+101,24/01/2024,C0101,Cliente_101,Audit di Sicurezza,T02,7406.83,79,Nord Italia,Pagato
+102,25/07/2024,C0102,Cliente_102,Audit di Sicurezza,T03,9407.83,88,Sud Italia,In Sospeso
+103,14/06/2024,C0103,Cliente_103,Audit di Sicurezza,T03,7523.84,73,Centro Italia,In Ritardo
+104,20/02/2024,C0104,Cliente_104,Sviluppo Web,T01,15547.7,149,Estero,In Ritardo
+105,25/05/2024,C0105,Cliente_105,Migrazione Cloud,T01,17961.72,171,Estero,In Ritardo
+106,18/05/2024,C0106,Cliente_106,Audit di Sicurezza,T03,9346.7,86,Sud Italia,Pagato
+107,18/07/2024,C0107,Cliente_107,Migrazione Cloud,T01,20845.64,193,Nord Italia,In Ritardo
+108,05/11/2024,C0108,Cliente_108,Supporto Tecnico,T02,3629.72,34,Centro Italia,Pagato
+109,31/12/2024,C0109,Cliente_109,Sviluppo Web,T04,18005.17,178,Sud Italia,In Ritardo
+110,05/10/2024,C0110,Cliente_110,Sviluppo Web,T01,19934.22,186,Nord Italia,In Sospeso
+111,28/12/2024,C0111,Cliente_111,Supporto Tecnico,T03,3099.29,30,Nord Italia,Pagato
+112,04/01/2024,C0112,Cliente_112,Sviluppo Web,T01,11605.27,115,Nord Italia,In Ritardo
+113,14/05/2024,C0113,Cliente_113,Migrazione Cloud,T02,24353.65,244,Sud Italia,Pagato
+114,20/10/2024,C0114,Cliente_114,Migrazione Cloud,T01,20786.89,195,Nord Italia,In Ritardo
+115,22/02/2024,C0115,Cliente_115,Audit di Sicurezza,T02,7780.07,71,Nord Italia,In Ritardo
+116,09/05/2024,C0116,Cliente_116,Migrazione Cloud,T04,22430.08,212,Nord Italia,Pagato
+117,04/04/2024,C0117,Cliente_117,Audit di Sicurezza,T04,5991.45,63,Centro Italia,In Ritardo
+118,18/01/2024,C0118,Cliente_118,Sviluppo Web,T01,14050.4,131,Sud Italia,In Ritardo
+119,13/12/2024,C0119,Cliente_119,Sviluppo Web,T03,18485.01,187,Sud Italia,In Sospeso
+120,02/09/2024,C0120,Cliente_120,Migrazione Cloud,T03,23897.68,230,Estero,In Ritardo
+121,17/08/2024,C0121,Cliente_121,Supporto Tecnico,T02,3456.32,37,Nord Italia,Pagato
+122,30/05/2024,C0122,Cliente_122,Supporto Tecnico,T02,2876.88,29,Sud Italia,In Sospeso
+123,28/03/2024,C0123,Cliente_123,Sviluppo Web,T03,17704.61,167,Centro Italia,In Sospeso
+124,22/06/2024,C0124,Cliente_124,Migrazione Cloud,T03,20164.5,209,Centro Italia,In Ritardo
+125,02/03/2024,C0125,Cliente_125,Migrazione Cloud,T01,14186.95,151,Nord Italia,In Sospeso
+126,19/10/2024,C0126,Cliente_126,Supporto Tecnico,T04,4034.28,41,Estero,In Ritardo
+127,12/01/2024,C0127,Cliente_127,Audit di Sicurezza,T04,5279.37,58,Centro Italia,Pagato
+128,19/01/2024,C0128,Cliente_128,Migrazione Cloud,T02,17365.71,179,Centro Italia,In Sospeso
+129,04/02/2024,C0129,Cliente_129,Migrazione Cloud,T03,21883.99,211,Nord Italia,In Sospeso
+130,02/01/2024,C0130,Cliente_130,Supporto Tecnico,T01,4146.24,46,Sud Italia,Pagato
+131,15/03/2024,C0131,Cliente_131,Sviluppo Web,T02,16451.42,171,Sud Italia,In Ritardo
+132,04/04/2024,C0132,Cliente_132,Audit di Sicurezza,T04,6785.91,67,Nord Italia,In Sospeso
+133,06/01/2024,C0133,Cliente_133,Supporto Tecnico,T03,4861.32,48,Estero,In Sospeso
+134,21/12/2024,C0134,Cliente_134,Migrazione Cloud,T04,23052.39,245,Nord Italia,In Sospeso
+135,05/07/2024,C0135,Cliente_135,Sviluppo Web,T01,15200.21,160,Centro Italia,In Sospeso
+136,14/04/2024,C0136,Cliente_136,Audit di Sicurezza,T02,6127.95,62,Centro Italia,In Ritardo
+137,20/10/2024,C0137,Cliente_137,Supporto Tecnico,T02,2998.58,31,Nord Italia,Pagato
+138,05/02/2024,C0138,Cliente_138,Migrazione Cloud,T01,17659.64,185,Nord Italia,In Sospeso
+139,02/05/2024,C0139,Cliente_139,Audit di Sicurezza,T04,8505.22,81,Centro Italia,In Ritardo
+140,18/01/2024,C0140,Cliente_140,Sviluppo Web,T02,12476.86,116,Nord Italia,In Sospeso
+141,01/10/2024,C0141,Cliente_141,Audit di Sicurezza,T02,9328.95,98,Nord Italia,Pagato
+142,02/03/2024,C0142,Cliente_142,Audit di Sicurezza,T02,9205.58,93,Sud Italia,In Sospeso
+143,28/11/2024,C0143,Cliente_143,Migrazione Cloud,T01,22244.52,236,Nord Italia,Pagato
+144,12/12/2024,C0144,Cliente_144,Migrazione Cloud,T03,16704.21,176,Centro Italia,In Sospeso
+145,19/10/2024,C0145,Cliente_145,Supporto Tecnico,T02,5264.79,49,Centro Italia,Pagato
+146,07/04/2024,C0146,Cliente_146,Supporto Tecnico,T03,4088.73,43,Nord Italia,Pagato
+147,20/03/2024,C0147,Cliente_147,Supporto Tecnico,T03,2966.91,30,Centro Italia,In Sospeso
+148,13/12/2024,C0148,Cliente_148,Migrazione Cloud,T03,21783.95,208,Nord Italia,In Ritardo
+149,22/01/2024,C0149,Cliente_149,Migrazione Cloud,T04,21092.49,219,Nord Italia,Pagato
+150,16/07/2024,C0150,Cliente_150,Supporto Tecnico,T04,2171.73,21,Nord Italia,In Sospeso
+151,22/10/2024,C0151,Cliente_151,Migrazione Cloud,T01,23619.46,217,Estero,Pagato
+152,03/04/2024,C0152,Cliente_152,Supporto Tecnico,T01,3477.05,33,Centro Italia,Pagato
+153,24/01/2024,C0153,Cliente_153,Supporto Tecnico,T03,3714.82,38,Centro Italia,In Sospeso
+154,11/01/2024,C0154,Cliente_154,Supporto Tecnico,T03,5375.54,49,Sud Italia,In Ritardo
+155,16/02/2024,C0155,Cliente_155,Audit di Sicurezza,T01,6421.87,60,Estero,In Sospeso
+156,05/05/2024,C0156,Cliente_156,Supporto Tecnico,T01,2352.5,22,Estero,In Sospeso
+157,16/06/2024,C0157,Cliente_157,Migrazione Cloud,T01,17795.0,173,Estero,Pagato
+158,04/02/2024,C0158,Cliente_158,Supporto Tecnico,T01,3818.46,41,Sud Italia,In Sospeso
+159,05/06/2024,C0159,Cliente_159,Migrazione Cloud,T02,19321.1,191,Centro Italia,Pagato
+160,29/11/2024,C0160,Cliente_160,Supporto Tecnico,T02,1868.92,20,Centro Italia,In Ritardo
+161,13/09/2024,C0161,Cliente_161,Audit di Sicurezza,T04,8161.66,85,Nord Italia,In Sospeso
+162,05/01/2024,C0162,Cliente_162,Audit di Sicurezza,T04,8782.2,82,Centro Italia,In Ritardo
+163,21/02/2024,C0163,Cliente_163,Migrazione Cloud,T04,15432.63,167,Estero,Pagato
+164,04/01/2024,C0164,Cliente_164,Sviluppo Web,T01,16775.06,180,Sud Italia,In Ritardo
+165,09/03/2024,C0165,Cliente_165,Supporto Tecnico,T03,3253.17,35,Sud Italia,Pagato
+166,25/06/2024,C0166,Cliente_166,Audit di Sicurezza,T04,6584.08,62,Nord Italia,Pagato
+167,12/11/2024,C0167,Cliente_167,Migrazione Cloud,T01,20752.21,194,Estero,In Ritardo
+168,15/07/2024,C0168,Cliente_168,Migrazione Cloud,T01,19438.73,196,Estero,In Sospeso
+169,20/09/2024,C0169,Cliente_169,Audit di Sicurezza,T04,7031.25,64,Estero,In Sospeso
+170,25/08/2024,C0170,Cliente_170,Audit di Sicurezza,T01,6731.39,63,Estero,In Ritardo
+171,27/06/2024,C0171,Cliente_171,Sviluppo Web,T01,19418.08,194,Centro Italia,In Sospeso
+172,13/03/2024,C0172,Cliente_172,Audit di Sicurezza,T03,8682.49,90,Sud Italia,In Sospeso
+173,21/07/2024,C0173,Cliente_173,Sviluppo Web,T03,10228.84,112,Sud Italia,In Ritardo
+174,09/10/2024,C0174,Cliente_174,Sviluppo Web,T01,16112.61,156,Nord Italia,In Ritardo
+175,04/05/2024,C0175,Cliente_175,Migrazione Cloud,T04,22112.71,219,Nord Italia,In Sospeso
+176,04/11/2024,C0176,Cliente_176,Sviluppo Web,T04,17576.43,182,Estero,In Sospeso
+177,02/04/2024,C0177,Cliente_177,Migrazione Cloud,T01,18777.3,171,Nord Italia,In Ritardo
+178,02/07/2024,C0178,Cliente_178,Audit di Sicurezza,T02,5185.56,54,Centro Italia,In Ritardo
+179,20/03/2024,C0179,Cliente_179,Audit di Sicurezza,T03,10417.38,96,Sud Italia,In Ritardo
+180,11/12/2024,C0180,Cliente_180,Audit di Sicurezza,T02,8304.22,78,Sud Italia,In Ritardo
+181,21/01/2024,C0181,Cliente_181,Audit di Sicurezza,T02,7010.28,65,Nord Italia,In Ritardo
+182,09/04/2024,C0182,Cliente_182,Audit di Sicurezza,T03,6572.28,67,Sud Italia,Pagato
+183,13/03/2024,C0183,Cliente_183,Audit di Sicurezza,T03,7133.09,76,Nord Italia,Pagato
+184,19/09/2024,C0184,Cliente_184,Supporto Tecnico,T04,4677.24,47,Nord Italia,In Ritardo
+185,29/02/2024,C0185,Cliente_185,Audit di Sicurezza,T04,8261.88,87,Nord Italia,Pagato
+186,29/02/2024,C0186,Cliente_186,Supporto Tecnico,T04,3348.39,33,Estero,In Sospeso
+187,04/07/2024,C0187,Cliente_187,Migrazione Cloud,T03,25843.45,246,Sud Italia,In Ritardo
+188,27/05/2024,C0188,Cliente_188,Sviluppo Web,T01,13737.01,127,Nord Italia,In Sospeso
+189,23/08/2024,C0189,Cliente_189,Supporto Tecnico,T02,4264.57,40,Estero,In Sospeso
+190,15/04/2024,C0190,Cliente_190,Audit di Sicurezza,T03,7083.83,75,Sud Italia,Pagato
+191,01/12/2024,C0191,Cliente_191,Migrazione Cloud,T04,18094.88,198,Estero,Pagato
+192,05/02/2024,C0192,Cliente_192,Sviluppo Web,T03,11520.58,119,Centro Italia,In Ritardo
+193,01/03/2024,C0193,Cliente_193,Sviluppo Web,T02,15166.24,160,Sud Italia,In Sospeso
+194,28/05/2024,C0194,Cliente_194,Supporto Tecnico,T01,1874.95,20,Estero,In Ritardo
+195,14/04/2024,C0195,Cliente_195,Supporto Tecnico,T04,2759.01,29,Estero,Pagato
+196,05/05/2024,C0196,Cliente_196,Audit di Sicurezza,T03,7441.39,78,Nord Italia,In Ritardo
+197,31/05/2024,C0197,Cliente_197,Sviluppo Web,T02,17588.57,192,Centro Italia,In Sospeso
+198,26/05/2024,C0198,Cliente_198,Supporto Tecnico,T04,2764.96,29,Nord Italia,In Sospeso
+199,07/09/2024,C0199,Cliente_199,Audit di Sicurezza,T02,9349.0,94,Centro Italia,In Ritardo
+200,03/11/2024,C0200,Cliente_200,Audit di Sicurezza,T01,4939.73,52,Sud Italia,Pagato
+201,22/08/2024,C0201,Cliente_201,Migrazione Cloud,T02,17325.67,160,Nord Italia,In Ritardo
+202,13/08/2024,C0202,Cliente_202,Audit di Sicurezza,T01,8198.85,75,Sud Italia,In Ritardo
+203,28/06/2024,C0203,Cliente_203,Supporto Tecnico,T02,2148.99,22,Nord Italia,In Sospeso
+204,08/03/2024,C0204,Cliente_204,Migrazione Cloud,T04,23440.61,227,Sud Italia,In Ritardo
+205,11/08/2024,C0205,Cliente_205,Supporto Tecnico,T02,3759.64,40,Estero,Pagato
+206,24/05/2024,C0206,Cliente_206,Audit di Sicurezza,T04,6280.6,65,Estero,In Sospeso
+207,22/08/2024,C0207,Cliente_207,Sviluppo Web,T02,10627.32,102,Sud Italia,In Sospeso
+208,01/06/2024,C0208,Cliente_208,Sviluppo Web,T03,19954.87,193,Nord Italia,Pagato
+209,25/06/2024,C0209,Cliente_209,Audit di Sicurezza,T04,9750.29,92,Nord Italia,In Sospeso
+210,16/11/2024,C0210,Cliente_210,Supporto Tecnico,T02,2961.49,32,Centro Italia,In Ritardo
+211,10/08/2024,C0211,Cliente_211,Sviluppo Web,T01,9968.68,102,Sud Italia,In Sospeso
+212,18/10/2024,C0212,Cliente_212,Migrazione Cloud,T02,15588.3,158,Estero,In Ritardo
+213,04/07/2024,C0213,Cliente_213,Sviluppo Web,T02,17993.74,183,Nord Italia,In Sospeso
+214,05/03/2024,C0214,Cliente_214,Supporto Tecnico,T02,3626.79,36,Estero,In Ritardo
+215,21/11/2024,C0215,Cliente_215,Supporto Tecnico,T04,4390.65,45,Nord Italia,In Sospeso
+216,22/03/2024,C0216,Cliente_216,Supporto Tecnico,T04,2322.84,23,Sud Italia,Pagato
+217,29/04/2024,C0217,Cliente_217,Sviluppo Web,T04,15981.17,150,Nord Italia,In Ritardo
+218,13/06/2024,C0218,Cliente_218,Sviluppo Web,T03,13180.23,144,Estero,Pagato
+219,27/05/2024,C0219,Cliente_219,Supporto Tecnico,T03,4094.43,41,Sud Italia,In Sospeso
+220,16/02/2024,C0220,Cliente_220,Sviluppo Web,T04,15259.71,140,Nord Italia,Pagato
+221,08/03/2024,C0221,Cliente_221,Supporto Tecnico,T02,4589.78,43,Estero,In Ritardo
+222,16/01/2024,C0222,Cliente_222,Migrazione Cloud,T04,13919.84,153,Sud Italia,Pagato
+223,16/03/2024,C0223,Cliente_223,Migrazione Cloud,T01,21776.7,206,Estero,Pagato
+224,07/04/2024,C0224,Cliente_224,Supporto Tecnico,T03,4721.08,47,Nord Italia,In Ritardo
+225,08/03/2024,C0225,Cliente_225,Sviluppo Web,T02,15564.26,167,Centro Italia,In Ritardo
+226,29/10/2024,C0226,Cliente_226,Migrazione Cloud,T03,23699.44,232,Nord Italia,In Ritardo
+227,05/02/2024,C0227,Cliente_227,Audit di Sicurezza,T01,5486.2,58,Nord Italia,Pagato
+228,01/07/2024,C0228,Cliente_228,Sviluppo Web,T01,15985.49,156,Centro Italia,In Sospeso
+229,17/06/2024,C0229,Cliente_229,Supporto Tecnico,T03,4057.53,43,Nord Italia,In Sospeso
+230,11/04/2024,C0230,Cliente_230,Migrazione Cloud,T03,25059.53,239,Nord Italia,In Sospeso
+231,26/09/2024,C0231,Cliente_231,Audit di Sicurezza,T02,5587.17,57,Sud Italia,Pagato
+232,10/01/2024,C0232,Cliente_232,Migrazione Cloud,T02,19334.78,208,Nord Italia,In Ritardo
+233,03/02/2024,C0233,Cliente_233,Audit di Sicurezza,T01,5191.07,50,Nord Italia,Pagato
+234,08/05/2024,C0234,Cliente_234,Migrazione Cloud,T02,17862.51,179,Sud Italia,Pagato
+235,21/08/2024,C0235,Cliente_235,Migrazione Cloud,T02,24525.42,245,Estero,Pagato
+236,23/09/2024,C0236,Cliente_236,Audit di Sicurezza,T04,8821.34,92,Centro Italia,Pagato
+237,20/08/2024,C0237,Cliente_237,Supporto Tecnico,T04,4423.08,44,Nord Italia,In Ritardo
+238,03/11/2024,C0238,Cliente_238,Audit di Sicurezza,T04,5971.67,62,Sud Italia,In Ritardo
+239,26/06/2024,C0239,Cliente_239,Migrazione Cloud,T04,16397.11,168,Estero,In Ritardo
+240,12/06/2024,C0240,Cliente_240,Migrazione Cloud,T01,19174.1,205,Estero,Pagato
+241,26/04/2024,C0241,Cliente_241,Migrazione Cloud,T02,15347.85,156,Estero,In Sospeso
+242,20/11/2024,C0242,Cliente_242,Migrazione Cloud,T01,21283.84,211,Centro Italia,Pagato
+243,10/11/2024,C0243,Cliente_243,Migrazione Cloud,T02,19725.4,216,Estero,In Ritardo
+244,01/09/2024,C0244,Cliente_244,Audit di Sicurezza,T01,6008.99,63,Nord Italia,In Sospeso
+245,02/08/2024,C0245,Cliente_245,Supporto Tecnico,T04,2991.56,28,Sud Italia,In Sospeso
+246,28/12/2024,C0246,Cliente_246,Sviluppo Web,T01,15424.32,167,Sud Italia,In Ritardo
+247,28/12/2024,C0247,Cliente_247,Sviluppo Web,T02,17932.46,191,Centro Italia,Pagato
+248,08/09/2024,C0248,Cliente_248,Sviluppo Web,T03,18555.28,196,Nord Italia,In Sospeso
+249,05/06/2024,C0249,Cliente_249,Audit di Sicurezza,T02,6363.43,67,Centro Italia,In Sospeso
+250,10/09/2024,C0250,Cliente_250,Migrazione Cloud,T03,20141.11,196,Sud Italia,In Ritardo
+251,07/03/2024,C0251,Cliente_251,Supporto Tecnico,T01,3929.23,36,Centro Italia,In Ritardo
+252,14/09/2024,C0252,Cliente_252,Migrazione Cloud,T01,25273.82,240,Centro Italia,In Sospeso
+253,07/06/2024,C0253,Cliente_253,Supporto Tecnico,T02,2052.22,22,Sud Italia,In Sospeso
+254,05/10/2024,C0254,Cliente_254,Sviluppo Web,T01,11639.44,107,Sud Italia,In Ritardo
+255,08/01/2024,C0255,Cliente_255,Audit di Sicurezza,T03,7247.37,73,Centro Italia,In Sospeso
+256,03/03/2024,C0256,Cliente_256,Audit di Sicurezza,T01,10013.59,95,Estero,Pagato
+257,24/10/2024,C0257,Cliente_257,Audit di Sicurezza,T04,7155.8,66,Centro Italia,Pagato
+258,06/02/2024,C0258,Cliente_258,Migrazione Cloud,T03,20833.03,194,Estero,Pagato
+259,20/05/2024,C0259,Cliente_259,Migrazione Cloud,T04,20357.2,219,Centro Italia,In Ritardo
+260,16/04/2024,C0260,Cliente_260,Supporto Tecnico,T04,4455.13,46,Centro Italia,In Sospeso
+261,10/12/2024,C0261,Cliente_261,Audit di Sicurezza,T01,5356.25,57,Estero,Pagato
+262,26/05/2024,C0262,Cliente_262,Audit di Sicurezza,T03,10099.84,97,Sud Italia,In Ritardo
+263,02/03/2024,C0263,Cliente_263,Audit di Sicurezza,T04,5788.42,61,Nord Italia,In Ritardo
+264,26/06/2024,C0264,Cliente_264,Migrazione Cloud,T03,18992.07,203,Estero,In Ritardo
+265,01/07/2024,C0265,Cliente_265,Supporto Tecnico,T03,2555.4,26,Centro Italia,In Ritardo
+266,26/05/2024,C0266,Cliente_266,Supporto Tecnico,T03,2671.04,27,Centro Italia,In Ritardo
+267,11/12/2024,C0267,Cliente_267,Supporto Tecnico,T04,3270.2,34,Sud Italia,In Sospeso
+268,10/04/2024,C0268,Cliente_268,Sviluppo Web,T01,9575.15,102,Estero,In Ritardo
+269,14/09/2024,C0269,Cliente_269,Sviluppo Web,T04,14801.56,158,Sud Italia,In Sospeso
+270,01/06/2024,C0270,Cliente_270,Migrazione Cloud,T03,21724.63,226,Sud Italia,Pagato
+271,22/04/2024,C0271,Cliente_271,Supporto Tecnico,T03,2517.68,24,Nord Italia,Pagato
+272,16/03/2024,C0272,Cliente_272,Migrazione Cloud,T01,15745.77,152,Centro Italia,In Ritardo
+273,01/02/2024,C0273,Cliente_273,Migrazione Cloud,T03,14885.93,164,Sud Italia,Pagato
+274,20/04/2024,C0274,Cliente_274,Audit di Sicurezza,T04,5888.36,55,Sud Italia,Pagato
+275,19/03/2024,C0275,Cliente_275,Audit di Sicurezza,T02,8585.62,82,Sud Italia,In Ritardo
+276,25/11/2024,C0276,Cliente_276,Supporto Tecnico,T03,3230.82,32,Centro Italia,In Sospeso
+277,11/05/2024,C0277,Cliente_277,Migrazione Cloud,T02,23264.59,229,Centro Italia,In Ritardo
+278,02/12/2024,C0278,Cliente_278,Supporto Tecnico,T02,3035.46,29,Centro Italia,Pagato
+279,29/08/2024,C0279,Cliente_279,Audit di Sicurezza,T03,5410.87,56,Sud Italia,In Sospeso
+280,01/08/2024,C0280,Cliente_280,Audit di Sicurezza,T02,6384.77,62,Centro Italia,Pagato
+281,04/08/2024,C0281,Cliente_281,Migrazione Cloud,T04,20079.88,192,Centro Italia,In Ritardo
+282,03/05/2024,C0282,Cliente_282,Supporto Tecnico,T02,4976.32,47,Nord Italia,Pagato
+283,08/06/2024,C0283,Cliente_283,Audit di Sicurezza,T03,8227.06,88,Centro Italia,Pagato
+284,20/07/2024,C0284,Cliente_284,Audit di Sicurezza,T04,6182.15,59,Estero,In Ritardo
+285,19/11/2024,C0285,Cliente_285,Audit di Sicurezza,T03,5941.22,56,Estero,In Ritardo
+286,01/02/2024,C0286,Cliente_286,Supporto Tecnico,T01,3570.73,34,Nord Italia,Pagato
+287,22/11/2024,C0287,Cliente_287,Audit di Sicurezza,T02,8452.88,77,Centro Italia,Pagato
+288,02/11/2024,C0288,Cliente_288,Audit di Sicurezza,T03,6896.84,75,Estero,Pagato
+289,13/04/2024,C0289,Cliente_289,Audit di Sicurezza,T01,7857.84,73,Estero,In Sospeso
+290,19/07/2024,C0290,Cliente_290,Supporto Tecnico,T04,2193.1,23,Sud Italia,In Sospeso
+291,28/06/2024,C0291,Cliente_291,Supporto Tecnico,T02,4810.64,45,Sud Italia,In Sospeso
+292,27/07/2024,C0292,Cliente_292,Supporto Tecnico,T03,2862.99,30,Sud Italia,In Sospeso
+293,29/02/2024,C0293,Cliente_293,Supporto Tecnico,T01,3954.87,37,Centro Italia,In Ritardo
+294,24/01/2024,C0294,Cliente_294,Sviluppo Web,T01,10762.88,115,Centro Italia,Pagato
+295,07/04/2024,C0295,Cliente_295,Migrazione Cloud,T02,22185.85,216,Nord Italia,In Sospeso
+296,17/05/2024,C0296,Cliente_296,Audit di Sicurezza,T04,5851.82,57,Nord Italia,Pagato
+297,10/01/2024,C0297,Cliente_297,Sviluppo Web,T04,11011.73,105,Centro Italia,In Sospeso
+298,23/01/2024,C0298,Cliente_298,Audit di Sicurezza,T02,9119.78,96,Centro Italia,Pagato
+299,24/06/2024,C0299,Cliente_299,Supporto Tecnico,T03,2949.69,31,Sud Italia,In Ritardo
+300,07/11/2024,C0300,Cliente_300,Audit di Sicurezza,T03,8026.26,78,Centro Italia,In Ritardo
+301,28/11/2024,C0301,Cliente_301,Audit di Sicurezza,T03,10280.78,99,Nord Italia,In Sospeso
+302,04/04/2024,C0302,Cliente_302,Sviluppo Web,T01,20886.75,196,Centro Italia,In Ritardo
+303,20/09/2024,C0303,Cliente_303,Audit di Sicurezza,T02,8866.36,89,Sud Italia,In Ritardo
+304,17/07/2024,C0304,Cliente_304,Migrazione Cloud,T03,22313.47,232,Estero,Pagato
+305,16/12/2024,C0305,Cliente_305,Sviluppo Web,T01,16392.73,152,Nord Italia,In Ritardo
+306,23/12/2024,C0306,Cliente_306,Audit di Sicurezza,T02,9535.52,93,Estero,Pagato
+307,09/10/2024,C0307,Cliente_307,Sviluppo Web,T03,18802.62,189,Estero,In Ritardo
+308,22/11/2024,C0308,Cliente_308,Sviluppo Web,T03,13268.2,130,Sud Italia,Pagato
+309,13/05/2024,C0309,Cliente_309,Sviluppo Web,T01,12721.55,134,Sud Italia,In Sospeso
+310,28/12/2024,C0310,Cliente_310,Migrazione Cloud,T03,22300.06,218,Centro Italia,In Sospeso
+311,24/01/2024,C0311,Cliente_311,Supporto Tecnico,T04,4139.97,44,Centro Italia,Pagato
+312,08/07/2024,C0312,Cliente_312,Migrazione Cloud,T02,20674.89,202,Estero,Pagato
+313,21/06/2024,C0313,Cliente_313,Audit di Sicurezza,T03,6198.15,66,Nord Italia,In Ritardo
+314,04/06/2024,C0314,Cliente_314,Audit di Sicurezza,T04,8556.11,80,Nord Italia,Pagato
+315,22/09/2024,C0315,Cliente_315,Sviluppo Web,T04,16475.01,181,Sud Italia,In Sospeso
+316,23/12/2024,C0316,Cliente_316,Audit di Sicurezza,T04,9570.22,90,Nord Italia,Pagato
+317,27/08/2024,C0317,Cliente_317,Migrazione Cloud,T04,23300.48,248,Centro Italia,In Sospeso
+318,21/01/2024,C0318,Cliente_318,Supporto Tecnico,T04,5135.23,50,Centro Italia,In Sospeso
+319,03/11/2024,C0319,Cliente_319,Sviluppo Web,T04,13426.4,126,Nord Italia,Pagato
+320,26/10/2024,C0320,Cliente_320,Migrazione Cloud,T02,18340.35,179,Sud Italia,In Ritardo
+321,18/03/2024,C0321,Cliente_321,Sviluppo Web,T04,17815.45,186,Nord Italia,In Ritardo
+322,27/05/2024,C0322,Cliente_322,Supporto Tecnico,T04,3138.21,29,Estero,In Sospeso
+323,05/02/2024,C0323,Cliente_323,Audit di Sicurezza,T03,4601.27,50,Centro Italia,Pagato
+324,07/06/2024,C0324,Cliente_324,Audit di Sicurezza,T02,7275.73,67,Sud Italia,In Sospeso
+325,25/05/2024,C0325,Cliente_325,Supporto Tecnico,T01,3476.25,38,Centro Italia,In Sospeso
+326,05/03/2024,C0326,Cliente_326,Supporto Tecnico,T03,2159.79,21,Sud Italia,Pagato
+327,03/12/2024,C0327,Cliente_327,Sviluppo Web,T04,19774.95,182,Nord Italia,In Ritardo
+328,16/07/2024,C0328,Cliente_328,Supporto Tecnico,T03,3481.96,33,Estero,In Ritardo
+329,29/07/2024,C0329,Cliente_329,Migrazione Cloud,T01,17717.19,195,Estero,Pagato
+330,17/07/2024,C0330,Cliente_330,Sviluppo Web,T01,15249.61,154,Estero,Pagato
+331,04/05/2024,C0331,Cliente_331,Audit di Sicurezza,T04,8967.49,95,Sud Italia,Pagato
+332,07/10/2024,C0332,Cliente_332,Sviluppo Web,T02,21197.48,196,Estero,In Ritardo
+333,16/07/2024,C0333,Cliente_333,Sviluppo Web,T02,11423.48,112,Estero,Pagato
+334,20/09/2024,C0334,Cliente_334,Sviluppo Web,T02,19884.62,198,Centro Italia,In Ritardo
+335,12/01/2024,C0335,Cliente_335,Supporto Tecnico,T04,3138.0,34,Estero,In Ritardo
+336,12/03/2024,C0336,Cliente_336,Sviluppo Web,T03,16029.57,172,Centro Italia,In Ritardo
+337,20/06/2024,C0337,Cliente_337,Supporto Tecnico,T02,2707.92,29,Centro Italia,In Ritardo
+338,17/03/2024,C0338,Cliente_338,Sviluppo Web,T04,16775.81,181,Centro Italia,In Ritardo
+339,03/05/2024,C0339,Cliente_339,Sviluppo Web,T03,10667.9,101,Estero,Pagato
+340,28/07/2024,C0340,Cliente_340,Migrazione Cloud,T03,22056.74,212,Sud Italia,In Ritardo
+341,26/06/2024,C0341,Cliente_341,Migrazione Cloud,T01,21213.8,210,Centro Italia,In Sospeso
+342,12/08/2024,C0342,Cliente_342,Sviluppo Web,T02,10828.9,117,Sud Italia,Pagato
+343,12/12/2024,C0343,Cliente_343,Supporto Tecnico,T03,4792.39,50,Centro Italia,Pagato
+344,15/02/2024,C0344,Cliente_344,Sviluppo Web,T01,17759.99,174,Nord Italia,In Sospeso
+345,26/02/2024,C0345,Cliente_345,Migrazione Cloud,T04,22646.2,239,Sud Italia,In Ritardo
+346,04/11/2024,C0346,Cliente_346,Sviluppo Web,T01,15399.34,156,Sud Italia,In Ritardo
+347,14/12/2024,C0347,Cliente_347,Sviluppo Web,T01,12183.4,129,Nord Italia,In Ritardo
+348,17/01/2024,C0348,Cliente_348,Migrazione Cloud,T02,19976.05,188,Sud Italia,Pagato
+349,21/12/2024,C0349,Cliente_349,Audit di Sicurezza,T01,7469.48,72,Centro Italia,In Sospeso
+350,06/03/2024,C0350,Cliente_350,Audit di Sicurezza,T01,9245.41,85,Sud Italia,Pagato
+351,21/05/2024,C0351,Cliente_351,Migrazione Cloud,T02,15272.02,159,Centro Italia,In Ritardo
+352,16/10/2024,C0352,Cliente_352,Supporto Tecnico,T01,4215.32,41,Centro Italia,Pagato
+353,06/12/2024,C0353,Cliente_353,Sviluppo Web,T03,10527.18,105,Estero,In Sospeso
+354,02/01/2024,C0354,Cliente_354,Supporto Tecnico,T01,4190.38,46,Nord Italia,In Ritardo
+355,10/08/2024,C0355,Cliente_355,Migrazione Cloud,T04,22495.43,227,Nord Italia,Pagato
+356,26/12/2024,C0356,Cliente_356,Audit di Sicurezza,T03,5639.34,55,Estero,In Sospeso
+357,29/10/2024,C0357,Cliente_357,Audit di Sicurezza,T03,4784.86,53,Nord Italia,In Sospeso
+358,20/08/2024,C0358,Cliente_358,Audit di Sicurezza,T01,6127.7,65,Nord Italia,In Sospeso
+359,17/01/2024,C0359,Cliente_359,Sviluppo Web,T04,19862.02,195,Estero,In Sospeso
+360,29/06/2024,C0360,Cliente_360,Migrazione Cloud,T04,23733.22,243,Centro Italia,Pagato
+361,02/02/2024,C0361,Cliente_361,Supporto Tecnico,T01,5026.94,47,Centro Italia,Pagato
+362,21/05/2024,C0362,Cliente_362,Sviluppo Web,T01,15130.62,148,Estero,In Sospeso
+363,30/10/2024,C0363,Cliente_363,Migrazione Cloud,T02,20748.21,200,Estero,Pagato
+364,20/05/2024,C0364,Cliente_364,Sviluppo Web,T03,18863.71,174,Sud Italia,In Ritardo
+365,12/09/2024,C0365,Cliente_365,Sviluppo Web,T04,18850.44,173,Centro Italia,In Ritardo
+366,18/12/2024,C0366,Cliente_366,Supporto Tecnico,T03,3017.65,28,Centro Italia,Pagato
+367,29/12/2024,C0367,Cliente_367,Sviluppo Web,T02,13126.06,131,Centro Italia,In Sospeso
+368,05/07/2024,C0368,Cliente_368,Migrazione Cloud,T02,23939.96,234,Estero,In Sospeso
+369,20/12/2024,C0369,Cliente_369,Sviluppo Web,T01,15668.88,164,Sud Italia,Pagato
+370,04/12/2024,C0370,Cliente_370,Audit di Sicurezza,T04,6941.2,73,Estero,In Sospeso
+371,26/08/2024,C0371,Cliente_371,Audit di Sicurezza,T04,9593.45,100,Estero,In Ritardo
+372,07/06/2024,C0372,Cliente_372,Sviluppo Web,T02,17731.15,172,Sud Italia,In Ritardo
+373,21/05/2024,C0373,Cliente_373,Sviluppo Web,T03,12175.03,120,Centro Italia,Pagato
+374,24/09/2024,C0374,Cliente_374,Sviluppo Web,T03,21445.0,200,Estero,In Ritardo
+375,25/10/2024,C0375,Cliente_375,Audit di Sicurezza,T01,6611.95,72,Sud Italia,In Sospeso
+376,29/02/2024,C0376,Cliente_376,Supporto Tecnico,T04,3475.63,36,Sud Italia,Pagato
+377,19/07/2024,C0377,Cliente_377,Migrazione Cloud,T03,19098.7,199,Nord Italia,Pagato
+378,13/12/2024,C0378,Cliente_378,Migrazione Cloud,T01,22226.7,220,Centro Italia,Pagato
+379,24/10/2024,C0379,Cliente_379,Sviluppo Web,T01,11646.18,115,Centro Italia,Pagato
+380,03/05/2024,C0380,Cliente_380,Sviluppo Web,T02,10991.1,109,Centro Italia,Pagato
+381,13/03/2024,C0381,Cliente_381,Audit di Sicurezza,T03,9466.23,88,Nord Italia,In Sospeso
+382,25/07/2024,C0382,Cliente_382,Migrazione Cloud,T02,18231.54,181,Nord Italia,In Ritardo
+383,28/07/2024,C0383,Cliente_383,Supporto Tecnico,T01,2317.16,22,Nord Italia,In Sospeso
+384,08/08/2024,C0384,Cliente_384,Supporto Tecnico,T02,4723.49,49,Centro Italia,In Sospeso
+385,24/05/2024,C0385,Cliente_385,Supporto Tecnico,T04,4272.87,43,Estero,Pagato
+386,22/06/2024,C0386,Cliente_386,Supporto Tecnico,T04,4572.06,45,Nord Italia,In Ritardo
+387,21/09/2024,C0387,Cliente_387,Supporto Tecnico,T03,2827.62,27,Sud Italia,In Ritardo
+388,16/03/2024,C0388,Cliente_388,Supporto Tecnico,T04,3078.34,31,Sud Italia,In Sospeso
+389,28/11/2024,C0389,Cliente_389,Sviluppo Web,T02,18594.47,188,Nord Italia,In Ritardo
+390,19/02/2024,C0390,Cliente_390,Audit di Sicurezza,T03,9212.34,98,Estero,In Ritardo
+391,18/04/2024,C0391,Cliente_391,Audit di Sicurezza,T01,7030.27,77,Centro Italia,In Sospeso
+392,12/10/2024,C0392,Cliente_392,Migrazione Cloud,T01,16654.37,173,Estero,In Ritardo
+393,28/02/2024,C0393,Cliente_393,Migrazione Cloud,T01,21431.38,214,Sud Italia,In Ritardo
+394,23/05/2024,C0394,Cliente_394,Migrazione Cloud,T04,16273.63,180,Sud Italia,In Ritardo
+395,21/03/2024,C0395,Cliente_395,Migrazione Cloud,T02,20872.89,231,Sud Italia,In Sospeso
+396,05/05/2024,C0396,Cliente_396,Migrazione Cloud,T04,16733.84,178,Estero,In Sospeso
+397,17/11/2024,C0397,Cliente_397,Sviluppo Web,T01,9632.59,106,Sud Italia,In Sospeso
+398,22/03/2024,C0398,Cliente_398,Supporto Tecnico,T02,2808.58,28,Nord Italia,In Sospeso
+399,13/05/2024,C0399,Cliente_399,Sviluppo Web,T03,18778.19,191,Sud Italia,In Sospeso
+400,30/06/2024,C0400,Cliente_400,Supporto Tecnico,T03,2387.15,25,Sud Italia,Pagato
+401,25/06/2024,C0401,Cliente_401,Migrazione Cloud,T04,17672.87,189,Estero,In Ritardo
+402,19/05/2024,C0402,Cliente_402,Migrazione Cloud,T01,20517.81,192,Nord Italia,In Sospeso
+403,12/08/2024,C0403,Cliente_403,Audit di Sicurezza,T02,9909.27,96,Sud Italia,In Sospeso
+404,16/08/2024,C0404,Cliente_404,Sviluppo Web,T02,15973.04,154,Centro Italia,In Ritardo
+405,13/07/2024,C0405,Cliente_405,Migrazione Cloud,T02,18726.27,183,Nord Italia,In Sospeso
+406,18/05/2024,C0406,Cliente_406,Sviluppo Web,T04,10974.48,110,Nord Italia,In Sospeso
+407,01/04/2024,C0407,Cliente_407,Supporto Tecnico,T02,3692.88,37,Centro Italia,Pagato
+408,06/06/2024,C0408,Cliente_408,Migrazione Cloud,T03,21022.94,212,Estero,Pagato
+409,06/10/2024,C0409,Cliente_409,Sviluppo Web,T03,16459.49,176,Estero,Pagato
+410,13/04/2024,C0410,Cliente_410,Audit di Sicurezza,T02,6373.78,68,Estero,In Sospeso
+411,08/05/2024,C0411,Cliente_411,Audit di Sicurezza,T02,7205.93,71,Estero,In Ritardo
+412,16/04/2024,C0412,Cliente_412,Migrazione Cloud,T03,21891.27,218,Sud Italia,In Ritardo
+413,30/09/2024,C0413,Cliente_413,Supporto Tecnico,T03,2417.12,24,Nord Italia,Pagato
+414,11/09/2024,C0414,Cliente_414,Sviluppo Web,T03,17732.93,176,Nord Italia,In Sospeso
+415,31/08/2024,C0415,Cliente_415,Audit di Sicurezza,T01,6342.31,70,Nord Italia,In Ritardo
+416,01/06/2024,C0416,Cliente_416,Audit di Sicurezza,T03,5177.38,55,Nord Italia,In Ritardo
+417,06/11/2024,C0417,Cliente_417,Audit di Sicurezza,T01,5896.86,59,Nord Italia,In Ritardo
+418,07/12/2024,C0418,Cliente_418,Supporto Tecnico,T04,3754.13,41,Centro Italia,In Sospeso
+419,07/04/2024,C0419,Cliente_419,Sviluppo Web,T04,16584.0,160,Estero,Pagato
+420,27/10/2024,C0420,Cliente_420,Supporto Tecnico,T01,2870.12,30,Sud Italia,Pagato
+421,01/02/2024,C0421,Cliente_421,Audit di Sicurezza,T03,8659.46,87,Centro Italia,In Ritardo
+422,06/07/2024,C0422,Cliente_422,Audit di Sicurezza,T03,7574.33,84,Sud Italia,In Ritardo
+423,05/08/2024,C0423,Cliente_423,Migrazione Cloud,T02,22419.13,224,Centro Italia,In Ritardo
+424,16/10/2024,C0424,Cliente_424,Supporto Tecnico,T04,3444.16,33,Nord Italia,Pagato
+425,27/04/2024,C0425,Cliente_425,Supporto Tecnico,T02,4700.06,43,Centro Italia,In Sospeso
+426,30/09/2024,C0426,Cliente_426,Sviluppo Web,T04,13500.28,126,Sud Italia,In Ritardo
+427,19/08/2024,C0427,Cliente_427,Audit di Sicurezza,T03,8754.93,85,Estero,In Sospeso
+428,02/07/2024,C0428,Cliente_428,Sviluppo Web,T04,10684.94,106,Nord Italia,Pagato
+429,17/01/2024,C0429,Cliente_429,Audit di Sicurezza,T02,6483.59,68,Nord Italia,Pagato
+430,08/10/2024,C0430,Cliente_430,Supporto Tecnico,T02,4004.49,38,Estero,Pagato
+431,17/06/2024,C0431,Cliente_431,Migrazione Cloud,T04,19648.84,214,Estero,In Sospeso
+432,05/07/2024,C0432,Cliente_432,Audit di Sicurezza,T04,8553.96,88,Centro Italia,Pagato
+433,03/12/2024,C0433,Cliente_433,Sviluppo Web,T02,20546.7,199,Sud Italia,Pagato
+434,28/06/2024,C0434,Cliente_434,Sviluppo Web,T01,13292.1,142,Sud Italia,In Sospeso
+435,11/02/2024,C0435,Cliente_435,Supporto Tecnico,T01,4138.98,41,Nord Italia,In Sospeso
+436,26/01/2024,C0436,Cliente_436,Supporto Tecnico,T04,3446.92,35,Nord Italia,In Sospeso
+437,15/12/2024,C0437,Cliente_437,Migrazione Cloud,T01,25298.71,250,Sud Italia,Pagato
+438,25/11/2024,C0438,Cliente_438,Sviluppo Web,T03,14380.67,151,Nord Italia,In Ritardo
+439,23/11/2024,C0439,Cliente_439,Sviluppo Web,T01,15899.29,151,Centro Italia,In Ritardo
+440,01/10/2024,C0440,Cliente_440,Migrazione Cloud,T02,15709.78,168,Centro Italia,In Ritardo
+441,23/01/2024,C0441,Cliente_441,Supporto Tecnico,T01,2550.59,24,Sud Italia,In Sospeso
+442,19/07/2024,C0442,Cliente_442,Audit di Sicurezza,T03,6364.56,60,Centro Italia,In Ritardo
+443,01/02/2024,C0443,Cliente_443,Sviluppo Web,T03,15198.79,147,Centro Italia,In Sospeso
+444,27/05/2024,C0444,Cliente_444,Audit di Sicurezza,T02,5452.98,52,Nord Italia,In Ritardo
+445,21/03/2024,C0445,Cliente_445,Sviluppo Web,T04,21667.56,200,Centro Italia,Pagato
+446,21/01/2024,C0446,Cliente_446,Sviluppo Web,T02,10890.02,109,Sud Italia,In Sospeso
+447,29/11/2024,C0447,Cliente_447,Migrazione Cloud,T01,21724.89,198,Nord Italia,In Ritardo
+448,14/06/2024,C0448,Cliente_448,Migrazione Cloud,T04,16254.57,156,Centro Italia,In Sospeso
+449,15/01/2024,C0449,Cliente_449,Sviluppo Web,T01,13589.35,137,Centro Italia,In Sospeso
+450,19/08/2024,C0450,Cliente_450,Audit di Sicurezza,T01,5322.0,52,Centro Italia,Pagato
+451,11/04/2024,C0451,Cliente_451,Supporto Tecnico,T02,4120.91,39,Nord Italia,In Sospeso
+452,16/12/2024,C0452,Cliente_452,Supporto Tecnico,T01,3495.7,37,Estero,In Sospeso
+453,05/07/2024,C0453,Cliente_453,Supporto Tecnico,T04,4582.86,49,Centro Italia,Pagato
+454,15/08/2024,C0454,Cliente_454,Audit di Sicurezza,T04,6942.57,66,Nord Italia,Pagato
+455,05/11/2024,C0455,Cliente_455,Sviluppo Web,T04,16705.61,153,Estero,In Sospeso
+456,06/03/2024,C0456,Cliente_456,Sviluppo Web,T03,20792.47,200,Nord Italia,In Ritardo
+457,17/04/2024,C0457,Cliente_457,Sviluppo Web,T02,16923.72,156,Centro Italia,In Sospeso
+458,15/02/2024,C0458,Cliente_458,Audit di Sicurezza,T01,7954.43,79,Nord Italia,In Ritardo
+459,14/06/2024,C0459,Cliente_459,Migrazione Cloud,T04,25608.08,237,Nord Italia,In Ritardo
+460,25/07/2024,C0460,Cliente_460,Supporto Tecnico,T04,3881.25,36,Estero,Pagato
+461,16/04/2024,C0461,Cliente_461,Sviluppo Web,T04,14889.53,157,Nord Italia,Pagato
+462,28/04/2024,C0462,Cliente_462,Sviluppo Web,T01,11882.26,113,Nord Italia,In Sospeso
+463,28/06/2024,C0463,Cliente_463,Audit di Sicurezza,T01,7123.88,76,Sud Italia,In Ritardo
+464,17/04/2024,C0464,Cliente_464,Audit di Sicurezza,T04,4730.04,52,Estero,In Sospeso
+465,19/06/2024,C0465,Cliente_465,Audit di Sicurezza,T04,5859.71,54,Estero,Pagato
+466,19/11/2024,C0466,Cliente_466,Audit di Sicurezza,T04,10678.06,98,Centro Italia,In Ritardo
+467,15/07/2024,C0467,Cliente_467,Supporto Tecnico,T02,3237.66,34,Nord Italia,In Sospeso
+468,12/05/2024,C0468,Cliente_468,Migrazione Cloud,T02,14937.39,157,Sud Italia,In Ritardo
+469,17/03/2024,C0469,Cliente_469,Supporto Tecnico,T01,4270.96,43,Nord Italia,In Ritardo
+470,12/11/2024,C0470,Cliente_470,Supporto Tecnico,T02,4400.71,48,Sud Italia,In Ritardo
+471,27/03/2024,C0471,Cliente_471,Supporto Tecnico,T01,3720.05,38,Sud Italia,In Sospeso
+472,27/01/2024,C0472,Cliente_472,Audit di Sicurezza,T01,7983.79,84,Nord Italia,In Sospeso
+473,29/09/2024,C0473,Cliente_473,Migrazione Cloud,T01,15842.57,164,Sud Italia,Pagato
+474,24/04/2024,C0474,Cliente_474,Migrazione Cloud,T03,18068.58,175,Sud Italia,In Sospeso
+475,16/09/2024,C0475,Cliente_475,Audit di Sicurezza,T01,6041.6,65,Estero,In Ritardo
+476,05/02/2024,C0476,Cliente_476,Sviluppo Web,T04,19643.47,191,Sud Italia,In Sospeso
+477,29/08/2024,C0477,Cliente_477,Migrazione Cloud,T02,19973.05,205,Nord Italia,Pagato
+478,19/09/2024,C0478,Cliente_478,Sviluppo Web,T01,11246.46,106,Sud Italia,In Sospeso
+479,31/10/2024,C0479,Cliente_479,Supporto Tecnico,T03,4054.67,38,Centro Italia,Pagato
+480,02/01/2024,C0480,Cliente_480,Sviluppo Web,T02,15524.62,161,Centro Italia,In Sospeso
+481,01/09/2024,C0481,Cliente_481,Migrazione Cloud,T03,23052.11,245,Estero,In Ritardo
+482,16/07/2024,C0482,Cliente_482,Sviluppo Web,T02,11984.22,114,Nord Italia,In Sospeso
+483,12/03/2024,C0483,Cliente_483,Sviluppo Web,T03,13900.14,154,Nord Italia,Pagato
+484,17/11/2024,C0484,Cliente_484,Sviluppo Web,T01,15179.39,168,Centro Italia,Pagato
+485,17/05/2024,C0485,Cliente_485,Sviluppo Web,T02,17335.24,191,Estero,In Sospeso
+486,26/09/2024,C0486,Cliente_486,Migrazione Cloud,T03,22613.05,206,Nord Italia,In Sospeso
+487,30/01/2024,C0487,Cliente_487,Sviluppo Web,T01,10966.82,119,Estero,In Sospeso
+488,11/04/2024,C0488,Cliente_488,Sviluppo Web,T02,9976.66,105,Nord Italia,Pagato
+489,06/04/2024,C0489,Cliente_489,Audit di Sicurezza,T02,9645.9,93,Centro Italia,In Ritardo
+490,21/12/2024,C0490,Cliente_490,Audit di Sicurezza,T01,7154.39,75,Nord Italia,In Sospeso
+491,01/01/2024,C0491,Cliente_491,Migrazione Cloud,T02,18802.08,193,Sud Italia,In Ritardo
+492,17/03/2024,C0492,Cliente_492,Supporto Tecnico,T04,3367.93,31,Nord Italia,Pagato
+493,20/05/2024,C0493,Cliente_493,Migrazione Cloud,T02,15287.14,160,Nord Italia,In Sospeso
+494,19/10/2024,C0494,Cliente_494,Sviluppo Web,T01,19951.66,186,Nord Italia,In Sospeso
+495,23/10/2024,C0495,Cliente_495,Migrazione Cloud,T01,15538.3,159,Nord Italia,In Ritardo
+496,18/11/2024,C0496,Cliente_496,Sviluppo Web,T01,11484.58,122,Sud Italia,Pagato
+497,25/11/2024,C0497,Cliente_497,Supporto Tecnico,T04,3470.73,37,Sud Italia,In Sospeso
+498,28/02/2024,C0498,Cliente_498,Audit di Sicurezza,T03,7748.39,78,Centro Italia,In Ritardo
+499,14/08/2024,C0499,Cliente_499,Migrazione Cloud,T03,24080.14,230,Sud Italia,In Ritardo
+500,19/08/2024,C0500,Cliente_500,Audit di Sicurezza,T04,10261.25,98,Nord Italia,In Sospeso
+501,24/02/2024,C0501,Cliente_501,Supporto Tecnico,T04,4122.54,44,Sud Italia,In Sospeso
+502,22/01/2024,C0502,Cliente_502,Sviluppo Web,T04,18549.78,176,Nord Italia,Pagato
+503,27/09/2024,C0503,Cliente_503,Migrazione Cloud,T01,23347.23,245,Estero,In Ritardo
+504,27/01/2024,C0504,Cliente_504,Sviluppo Web,T03,15866.36,153,Estero,In Ritardo
+505,03/10/2024,C0505,Cliente_505,Sviluppo Web,T03,20770.81,190,Nord Italia,In Ritardo
+506,29/09/2024,C0506,Cliente_506,Sviluppo Web,T01,10110.01,102,Nord Italia,Pagato
+507,05/06/2024,C0507,Cliente_507,Migrazione Cloud,T04,16751.93,164,Estero,Pagato
+508,24/07/2024,C0508,Cliente_508,Audit di Sicurezza,T02,6020.58,57,Estero,In Ritardo
+509,26/10/2024,C0509,Cliente_509,Supporto Tecnico,T04,4573.87,42,Nord Italia,In Sospeso
+510,24/03/2024,C0510,Cliente_510,Sviluppo Web,T04,17173.09,175,Centro Italia,Pagato
+511,29/12/2024,C0511,Cliente_511,Migrazione Cloud,T03,24114.76,234,Centro Italia,In Sospeso
+512,30/07/2024,C0512,Cliente_512,Supporto Tecnico,T02,3511.18,38,Nord Italia,Pagato
+513,23/11/2024,C0513,Cliente_513,Audit di Sicurezza,T03,6158.0,64,Nord Italia,In Ritardo
+514,22/12/2024,C0514,Cliente_514,Sviluppo Web,T01,18060.19,193,Centro Italia,Pagato
+515,24/11/2024,C0515,Cliente_515,Migrazione Cloud,T02,21357.12,228,Centro Italia,In Ritardo
+516,20/12/2024,C0516,Cliente_516,Supporto Tecnico,T03,4183.05,40,Estero,In Sospeso
+517,01/01/2024,C0517,Cliente_517,Supporto Tecnico,T04,4896.23,49,Estero,Pagato
+518,16/10/2024,C0518,Cliente_518,Sviluppo Web,T02,10477.86,109,Estero,In Ritardo
+519,27/12/2024,C0519,Cliente_519,Migrazione Cloud,T03,19089.01,181,Sud Italia,In Sospeso
+520,09/11/2024,C0520,Cliente_520,Migrazione Cloud,T01,18223.68,195,Nord Italia,In Sospeso
+521,26/11/2024,C0521,Cliente_521,Sviluppo Web,T01,10791.7,106,Nord Italia,In Ritardo
+522,20/08/2024,C0522,Cliente_522,Migrazione Cloud,T01,23363.44,249,Sud Italia,Pagato
+523,06/11/2024,C0523,Cliente_523,Sviluppo Web,T03,15048.72,164,Nord Italia,In Ritardo
+524,27/02/2024,C0524,Cliente_524,Migrazione Cloud,T01,22603.54,211,Sud Italia,In Ritardo
+525,27/01/2024,C0525,Cliente_525,Migrazione Cloud,T02,20372.47,189,Estero,In Sospeso
+526,22/05/2024,C0526,Cliente_526,Migrazione Cloud,T03,18783.6,190,Nord Italia,In Ritardo
+527,13/08/2024,C0527,Cliente_527,Audit di Sicurezza,T04,5886.33,57,Nord Italia,In Ritardo
+528,13/12/2024,C0528,Cliente_528,Migrazione Cloud,T02,18854.19,182,Centro Italia,Pagato
+529,04/11/2024,C0529,Cliente_529,Audit di Sicurezza,T02,7196.01,78,Centro Italia,Pagato
+530,01/09/2024,C0530,Cliente_530,Migrazione Cloud,T01,23133.01,218,Nord Italia,Pagato
+531,25/10/2024,C0531,Cliente_531,Migrazione Cloud,T03,18680.98,188,Estero,In Sospeso
+532,25/11/2024,C0532,Cliente_532,Supporto Tecnico,T04,2543.28,27,Estero,Pagato
+533,14/10/2024,C0533,Cliente_533,Audit di Sicurezza,T02,5022.92,50,Estero,In Ritardo
+534,14/12/2024,C0534,Cliente_534,Audit di Sicurezza,T01,5159.94,57,Nord Italia,In Ritardo
+535,16/09/2024,C0535,Cliente_535,Sviluppo Web,T01,14738.55,152,Centro Italia,In Sospeso
+536,24/10/2024,C0536,Cliente_536,Migrazione Cloud,T04,20572.15,202,Sud Italia,In Sospeso
+537,23/07/2024,C0537,Cliente_537,Migrazione Cloud,T01,23829.47,231,Centro Italia,Pagato
+538,14/05/2024,C0538,Cliente_538,Sviluppo Web,T04,13274.44,141,Nord Italia,Pagato
+539,26/05/2024,C0539,Cliente_539,Supporto Tecnico,T04,3189.51,31,Estero,In Sospeso
+540,27/01/2024,C0540,Cliente_540,Audit di Sicurezza,T01,6908.29,63,Centro Italia,Pagato
+541,11/02/2024,C0541,Cliente_541,Audit di Sicurezza,T03,8535.85,79,Centro Italia,In Sospeso
+542,07/01/2024,C0542,Cliente_542,Sviluppo Web,T04,15481.72,161,Nord Italia,Pagato
+543,21/10/2024,C0543,Cliente_543,Audit di Sicurezza,T02,8973.78,86,Centro Italia,In Sospeso
+544,22/07/2024,C0544,Cliente_544,Migrazione Cloud,T01,15187.28,162,Centro Italia,In Ritardo
+545,03/12/2024,C0545,Cliente_545,Supporto Tecnico,T04,2313.16,23,Centro Italia,In Sospeso
+546,09/01/2024,C0546,Cliente_546,Sviluppo Web,T04,15250.35,143,Estero,In Ritardo
+547,01/01/2024,C0547,Cliente_547,Migrazione Cloud,T04,21377.49,204,Estero,Pagato
+548,07/02/2024,C0548,Cliente_548,Supporto Tecnico,T04,2980.31,30,Sud Italia,In Ritardo
+549,28/01/2024,C0549,Cliente_549,Supporto Tecnico,T01,2812.59,31,Estero,Pagato
+550,06/10/2024,C0550,Cliente_550,Migrazione Cloud,T04,16548.23,163,Nord Italia,In Ritardo
+551,20/03/2024,C0551,Cliente_551,Migrazione Cloud,T01,19685.61,180,Centro Italia,In Ritardo
+552,21/06/2024,C0552,Cliente_552,Migrazione Cloud,T02,24967.18,239,Estero,In Ritardo
+553,25/07/2024,C0553,Cliente_553,Sviluppo Web,T01,10964.94,103,Centro Italia,In Ritardo
+554,30/01/2024,C0554,Cliente_554,Sviluppo Web,T01,10907.19,118,Estero,In Ritardo
+555,11/10/2024,C0555,Cliente_555,Migrazione Cloud,T01,23189.39,221,Nord Italia,Pagato
+556,27/08/2024,C0556,Cliente_556,Sviluppo Web,T03,16428.15,150,Estero,In Ritardo
+557,18/01/2024,C0557,Cliente_557,Sviluppo Web,T02,11176.8,111,Centro Italia,In Sospeso
+558,12/09/2024,C0558,Cliente_558,Sviluppo Web,T01,12359.74,131,Estero,In Sospeso
+559,29/03/2024,C0559,Cliente_559,Audit di Sicurezza,T02,8892.8,87,Nord Italia,In Sospeso
+560,03/08/2024,C0560,Cliente_560,Sviluppo Web,T02,18017.16,175,Estero,Pagato
+561,17/07/2024,C0561,Cliente_561,Supporto Tecnico,T01,3264.83,33,Sud Italia,Pagato
+562,28/03/2024,C0562,Cliente_562,Audit di Sicurezza,T03,7681.75,78,Nord Italia,In Sospeso
+563,15/11/2024,C0563,Cliente_563,Audit di Sicurezza,T04,5591.19,58,Sud Italia,In Ritardo
+564,15/09/2024,C0564,Cliente_564,Supporto Tecnico,T01,3727.56,35,Nord Italia,In Ritardo
+565,10/03/2024,C0565,Cliente_565,Sviluppo Web,T01,20676.49,188,Estero,In Sospeso
+566,10/10/2024,C0566,Cliente_566,Migrazione Cloud,T04,16598.53,159,Sud Italia,In Ritardo
+567,11/04/2024,C0567,Cliente_567,Supporto Tecnico,T04,3504.18,38,Nord Italia,In Ritardo
+568,19/02/2024,C0568,Cliente_568,Migrazione Cloud,T02,16511.69,163,Nord Italia,In Sospeso
+569,09/06/2024,C0569,Cliente_569,Supporto Tecnico,T02,3252.46,36,Sud Italia,In Ritardo
+570,23/11/2024,C0570,Cliente_570,Supporto Tecnico,T04,4380.97,44,Estero,In Ritardo
+571,19/01/2024,C0571,Cliente_571,Migrazione Cloud,T02,16337.93,173,Nord Italia,In Sospeso
+572,24/06/2024,C0572,Cliente_572,Supporto Tecnico,T01,4930.14,50,Estero,Pagato
+573,11/10/2024,C0573,Cliente_573,Sviluppo Web,T04,11107.93,114,Estero,In Ritardo
+574,22/06/2024,C0574,Cliente_574,Sviluppo Web,T04,17931.72,199,Sud Italia,In Sospeso
+575,13/05/2024,C0575,Cliente_575,Supporto Tecnico,T01,3526.23,34,Nord Italia,In Sospeso
+576,27/01/2024,C0576,Cliente_576,Audit di Sicurezza,T04,8263.63,84,Centro Italia,In Ritardo
+577,02/07/2024,C0577,Cliente_577,Sviluppo Web,T04,14127.5,147,Nord Italia,In Sospeso
+578,06/04/2024,C0578,Cliente_578,Audit di Sicurezza,T02,7088.12,74,Nord Italia,Pagato
+579,26/06/2024,C0579,Cliente_579,Audit di Sicurezza,T03,6667.75,62,Sud Italia,Pagato
+580,13/05/2024,C0580,Cliente_580,Migrazione Cloud,T04,19897.53,181,Estero,In Ritardo
+581,24/09/2024,C0581,Cliente_581,Supporto Tecnico,T04,2627.45,25,Nord Italia,In Sospeso
+582,12/07/2024,C0582,Cliente_582,Migrazione Cloud,T03,17207.63,174,Sud Italia,Pagato
+583,15/02/2024,C0583,Cliente_583,Sviluppo Web,T02,18229.16,172,Sud Italia,In Sospeso
+584,22/09/2024,C0584,Cliente_584,Supporto Tecnico,T02,4072.34,39,Estero,Pagato
+585,24/04/2024,C0585,Cliente_585,Supporto Tecnico,T01,3291.71,32,Centro Italia,In Ritardo
+586,19/10/2024,C0586,Cliente_586,Migrazione Cloud,T01,22959.37,222,Nord Italia,In Sospeso
+587,20/05/2024,C0587,Cliente_587,Audit di Sicurezza,T01,6375.53,62,Centro Italia,Pagato
+588,17/06/2024,C0588,Cliente_588,Migrazione Cloud,T01,24848.36,247,Estero,In Sospeso
+589,13/07/2024,C0589,Cliente_589,Audit di Sicurezza,T01,7523.63,73,Nord Italia,In Sospeso
+590,11/07/2024,C0590,Cliente_590,Audit di Sicurezza,T03,10289.73,99,Estero,In Ritardo
+591,20/10/2024,C0591,Cliente_591,Migrazione Cloud,T01,24934.46,240,Nord Italia,In Sospeso
+592,29/03/2024,C0592,Cliente_592,Audit di Sicurezza,T02,6815.17,63,Centro Italia,Pagato
+593,05/10/2024,C0593,Cliente_593,Audit di Sicurezza,T03,4947.47,53,Sud Italia,Pagato
+594,17/05/2024,C0594,Cliente_594,Audit di Sicurezza,T04,6872.25,63,Centro Italia,In Ritardo
+595,18/02/2024,C0595,Cliente_595,Supporto Tecnico,T03,3555.81,35,Sud Italia,In Ritardo
+596,23/06/2024,C0596,Cliente_596,Supporto Tecnico,T04,4919.43,47,Estero,In Ritardo
+597,30/01/2024,C0597,Cliente_597,Audit di Sicurezza,T03,6674.39,64,Nord Italia,In Ritardo
+598,29/06/2024,C0598,Cliente_598,Supporto Tecnico,T01,2137.97,21,Nord Italia,In Ritardo
+599,25/05/2024,C0599,Cliente_599,Audit di Sicurezza,T03,5979.76,65,Nord Italia,In Sospeso
+600,07/12/2024,C0600,Cliente_600,Migrazione Cloud,T04,20569.16,199,Nord Italia,Pagato
+601,04/08/2024,C0601,Cliente_601,Audit di Sicurezza,T01,6526.27,72,Estero,Pagato
+602,20/05/2024,C0602,Cliente_602,Supporto Tecnico,T01,2721.35,25,Nord Italia,In Ritardo
+603,27/11/2024,C0603,Cliente_603,Sviluppo Web,T03,9949.25,104,Nord Italia,Pagato
+604,02/08/2024,C0604,Cliente_604,Migrazione Cloud,T03,22342.44,221,Estero,In Sospeso
+605,18/02/2024,C0605,Cliente_605,Sviluppo Web,T01,19882.69,196,Centro Italia,In Sospeso
+606,22/03/2024,C0606,Cliente_606,Supporto Tecnico,T03,3647.85,34,Nord Italia,In Sospeso
+607,14/09/2024,C0607,Cliente_607,Audit di Sicurezza,T01,6862.76,64,Centro Italia,Pagato
+608,11/12/2024,C0608,Cliente_608,Sviluppo Web,T04,16617.71,182,Nord Italia,In Sospeso
+609,15/02/2024,C0609,Cliente_609,Sviluppo Web,T03,9136.0,100,Centro Italia,In Ritardo
+610,04/06/2024,C0610,Cliente_610,Migrazione Cloud,T01,24676.9,226,Sud Italia,Pagato
+611,15/12/2024,C0611,Cliente_611,Sviluppo Web,T02,19252.76,198,Nord Italia,In Sospeso
+612,03/03/2024,C0612,Cliente_612,Sviluppo Web,T04,10714.01,101,Centro Italia,Pagato
+613,09/11/2024,C0613,Cliente_613,Migrazione Cloud,T02,19873.06,208,Nord Italia,Pagato
+614,01/04/2024,C0614,Cliente_614,Sviluppo Web,T02,18303.93,189,Centro Italia,Pagato
+615,06/07/2024,C0615,Cliente_615,Audit di Sicurezza,T03,8015.37,82,Nord Italia,Pagato
+616,30/06/2024,C0616,Cliente_616,Migrazione Cloud,T03,22154.34,245,Sud Italia,Pagato
+617,11/09/2024,C0617,Cliente_617,Sviluppo Web,T01,11053.75,115,Sud Italia,In Ritardo
+618,26/11/2024,C0618,Cliente_618,Audit di Sicurezza,T04,8704.06,90,Sud Italia,In Sospeso
+619,23/05/2024,C0619,Cliente_619,Sviluppo Web,T03,11934.7,116,Estero,Pagato
+620,28/03/2024,C0620,Cliente_620,Sviluppo Web,T02,17816.24,163,Sud Italia,In Ritardo
+621,31/12/2024,C0621,Cliente_621,Sviluppo Web,T03,15323.56,150,Sud Italia,Pagato
+622,15/03/2024,C0622,Cliente_622,Supporto Tecnico,T03,2127.31,22,Centro Italia,In Sospeso
+623,24/05/2024,C0623,Cliente_623,Sviluppo Web,T04,13031.04,142,Sud Italia,In Sospeso
+624,09/03/2024,C0624,Cliente_624,Supporto Tecnico,T04,4675.08,47,Centro Italia,In Sospeso
+625,15/06/2024,C0625,Cliente_625,Migrazione Cloud,T01,24726.93,239,Sud Italia,In Ritardo
+626,09/01/2024,C0626,Cliente_626,Migrazione Cloud,T04,21057.87,202,Nord Italia,In Sospeso
+627,28/04/2024,C0627,Cliente_627,Migrazione Cloud,T01,20420.94,220,Sud Italia,In Sospeso
+628,25/06/2024,C0628,Cliente_628,Sviluppo Web,T02,14065.95,146,Estero,In Sospeso
+629,03/12/2024,C0629,Cliente_629,Audit di Sicurezza,T01,9072.49,95,Nord Italia,In Ritardo
+630,16/03/2024,C0630,Cliente_630,Supporto Tecnico,T01,3303.92,36,Nord Italia,Pagato
+631,30/04/2024,C0631,Cliente_631,Sviluppo Web,T02,14632.13,143,Estero,In Ritardo
+632,15/12/2024,C0632,Cliente_632,Sviluppo Web,T04,14351.06,152,Sud Italia,Pagato
+633,27/12/2024,C0633,Cliente_633,Migrazione Cloud,T02,21759.97,239,Nord Italia,In Ritardo
+634,23/12/2024,C0634,Cliente_634,Sviluppo Web,T01,13643.63,143,Centro Italia,Pagato
+635,07/02/2024,C0635,Cliente_635,Supporto Tecnico,T01,3067.59,34,Sud Italia,In Ritardo
+636,01/07/2024,C0636,Cliente_636,Migrazione Cloud,T01,20312.95,222,Nord Italia,In Ritardo
+637,10/12/2024,C0637,Cliente_637,Supporto Tecnico,T04,4857.58,49,Estero,In Sospeso
+638,22/07/2024,C0638,Cliente_638,Supporto Tecnico,T01,3299.01,32,Estero,In Sospeso
+639,31/05/2024,C0639,Cliente_639,Audit di Sicurezza,T04,10508.67,100,Nord Italia,Pagato
+640,31/03/2024,C0640,Cliente_640,Migrazione Cloud,T04,18591.79,171,Centro Italia,Pagato
+641,03/12/2024,C0641,Cliente_641,Migrazione Cloud,T03,20830.65,229,Estero,In Sospeso
+642,24/06/2024,C0642,Cliente_642,Audit di Sicurezza,T04,8665.04,79,Sud Italia,In Ritardo
+643,10/04/2024,C0643,Cliente_643,Audit di Sicurezza,T03,4924.59,54,Centro Italia,In Ritardo
+644,11/04/2024,C0644,Cliente_644,Supporto Tecnico,T04,4105.81,42,Nord Italia,In Ritardo
+645,25/01/2024,C0645,Cliente_645,Supporto Tecnico,T04,2050.89,20,Estero,Pagato
+646,17/08/2024,C0646,Cliente_646,Sviluppo Web,T04,18590.11,178,Centro Italia,In Ritardo
+647,07/04/2024,C0647,Cliente_647,Migrazione Cloud,T02,18495.42,204,Sud Italia,In Sospeso
+648,05/12/2024,C0648,Cliente_648,Sviluppo Web,T03,19817.11,193,Sud Italia,In Sospeso
+649,17/02/2024,C0649,Cliente_649,Supporto Tecnico,T01,2528.12,28,Nord Italia,In Ritardo
+650,27/11/2024,C0650,Cliente_650,Audit di Sicurezza,T01,9932.91,100,Estero,Pagato
+651,12/11/2024,C0651,Cliente_651,Migrazione Cloud,T02,15594.23,154,Nord Italia,In Sospeso
+652,12/08/2024,C0652,Cliente_652,Supporto Tecnico,T02,4609.86,47,Centro Italia,In Sospeso
+653,07/07/2024,C0653,Cliente_653,Sviluppo Web,T02,16401.31,154,Estero,In Sospeso
+654,18/02/2024,C0654,Cliente_654,Audit di Sicurezza,T04,9047.15,87,Centro Italia,Pagato
+655,19/07/2024,C0655,Cliente_655,Supporto Tecnico,T03,5160.45,49,Nord Italia,Pagato
+656,16/06/2024,C0656,Cliente_656,Audit di Sicurezza,T01,6263.51,63,Estero,In Ritardo
+657,15/11/2024,C0657,Cliente_657,Supporto Tecnico,T03,2348.77,23,Estero,In Ritardo
+658,17/09/2024,C0658,Cliente_658,Migrazione Cloud,T01,18669.96,205,Centro Italia,In Ritardo
+659,01/11/2024,C0659,Cliente_659,Audit di Sicurezza,T03,5658.23,53,Sud Italia,Pagato
+660,19/10/2024,C0660,Cliente_660,Sviluppo Web,T01,10642.73,117,Nord Italia,Pagato
+661,11/07/2024,C0661,Cliente_661,Supporto Tecnico,T01,3867.12,37,Sud Italia,Pagato
+662,04/08/2024,C0662,Cliente_662,Audit di Sicurezza,T03,4970.88,54,Centro Italia,In Sospeso
+663,18/03/2024,C0663,Cliente_663,Sviluppo Web,T01,10735.2,110,Estero,Pagato
+664,02/08/2024,C0664,Cliente_664,Migrazione Cloud,T03,19561.94,186,Centro Italia,Pagato
+665,13/04/2024,C0665,Cliente_665,Audit di Sicurezza,T03,5742.12,59,Nord Italia,Pagato
+666,18/03/2024,C0666,Cliente_666,Migrazione Cloud,T02,20683.6,204,Sud Italia,In Ritardo
+667,25/07/2024,C0667,Cliente_667,Migrazione Cloud,T01,18757.18,195,Estero,In Sospeso
+668,22/09/2024,C0668,Cliente_668,Audit di Sicurezza,T02,8136.41,84,Estero,In Sospeso
+669,08/10/2024,C0669,Cliente_669,Audit di Sicurezza,T04,10545.82,100,Estero,In Sospeso
+670,22/08/2024,C0670,Cliente_670,Migrazione Cloud,T02,15423.08,153,Centro Italia,Pagato
+671,18/07/2024,C0671,Cliente_671,Migrazione Cloud,T04,16112.72,156,Nord Italia,Pagato
+672,27/01/2024,C0672,Cliente_672,Migrazione Cloud,T01,23460.29,215,Nord Italia,Pagato
+673,01/05/2024,C0673,Cliente_673,Sviluppo Web,T02,16051.81,152,Estero,In Sospeso
+674,23/04/2024,C0674,Cliente_674,Migrazione Cloud,T02,16009.47,171,Sud Italia,In Ritardo
+675,03/10/2024,C0675,Cliente_675,Audit di Sicurezza,T01,7747.03,75,Sud Italia,Pagato
+676,20/07/2024,C0676,Cliente_676,Sviluppo Web,T01,16658.54,177,Estero,Pagato
+677,10/09/2024,C0677,Cliente_677,Migrazione Cloud,T02,24427.1,224,Estero,In Sospeso
+678,20/06/2024,C0678,Cliente_678,Migrazione Cloud,T02,14530.4,160,Nord Italia,In Ritardo
+679,29/06/2024,C0679,Cliente_679,Sviluppo Web,T03,18637.78,173,Estero,In Ritardo
+680,23/11/2024,C0680,Cliente_680,Supporto Tecnico,T03,4101.99,41,Centro Italia,Pagato
+681,07/02/2024,C0681,Cliente_681,Sviluppo Web,T03,16590.08,162,Sud Italia,In Ritardo
+682,07/07/2024,C0682,Cliente_682,Migrazione Cloud,T03,22575.4,235,Centro Italia,Pagato
+683,10/11/2024,C0683,Cliente_683,Sviluppo Web,T03,18251.63,196,Estero,In Sospeso
+684,21/05/2024,C0684,Cliente_684,Supporto Tecnico,T02,3614.86,40,Estero,In Sospeso
+685,06/03/2024,C0685,Cliente_685,Supporto Tecnico,T03,3919.92,36,Sud Italia,In Sospeso
+686,28/08/2024,C0686,Cliente_686,Audit di Sicurezza,T04,8044.08,86,Nord Italia,Pagato
+687,01/01/2024,C0687,Cliente_687,Audit di Sicurezza,T03,5350.42,50,Nord Italia,In Sospeso
+688,05/01/2024,C0688,Cliente_688,Supporto Tecnico,T04,3141.39,29,Sud Italia,In Ritardo
+689,21/07/2024,C0689,Cliente_689,Sviluppo Web,T03,16720.16,164,Nord Italia,In Sospeso
+690,28/12/2024,C0690,Cliente_690,Sviluppo Web,T04,13187.07,143,Nord Italia,In Ritardo
+691,16/09/2024,C0691,Cliente_691,Supporto Tecnico,T02,4020.75,39,Sud Italia,Pagato
+692,23/05/2024,C0692,Cliente_692,Supporto Tecnico,T04,3354.6,32,Sud Italia,In Ritardo
+693,16/09/2024,C0693,Cliente_693,Audit di Sicurezza,T02,7409.94,70,Nord Italia,In Sospeso
+694,28/10/2024,C0694,Cliente_694,Supporto Tecnico,T04,5053.64,50,Sud Italia,In Sospeso
+695,28/01/2024,C0695,Cliente_695,Audit di Sicurezza,T02,5308.62,55,Sud Italia,In Sospeso
+696,26/01/2024,C0696,Cliente_696,Audit di Sicurezza,T03,6222.77,64,Sud Italia,In Sospeso
+697,03/01/2024,C0697,Cliente_697,Audit di Sicurezza,T04,7326.21,74,Estero,In Ritardo
+698,07/11/2024,C0698,Cliente_698,Supporto Tecnico,T04,2042.67,20,Estero,In Ritardo
+699,23/11/2024,C0699,Cliente_699,Supporto Tecnico,T02,3915.03,41,Nord Italia,Pagato
+700,29/01/2024,C0700,Cliente_700,Migrazione Cloud,T02,22039.1,232,Nord Italia,Pagato
+701,30/01/2024,C0701,Cliente_701,Migrazione Cloud,T01,22477.92,248,Nord Italia,In Sospeso
+702,18/11/2024,C0702,Cliente_702,Supporto Tecnico,T04,5122.54,50,Sud Italia,In Ritardo
+703,17/10/2024,C0703,Cliente_703,Supporto Tecnico,T02,4652.18,46,Centro Italia,In Sospeso
+704,10/01/2024,C0704,Cliente_704,Supporto Tecnico,T02,3812.29,40,Estero,Pagato
+705,30/08/2024,C0705,Cliente_705,Sviluppo Web,T03,14292.4,138,Sud Italia,In Ritardo
+706,19/04/2024,C0706,Cliente_706,Migrazione Cloud,T04,14881.82,156,Centro Italia,In Ritardo
+707,21/12/2024,C0707,Cliente_707,Audit di Sicurezza,T04,6442.97,64,Estero,In Ritardo
+708,23/02/2024,C0708,Cliente_708,Supporto Tecnico,T02,4009.44,39,Estero,In Ritardo
+709,07/09/2024,C0709,Cliente_709,Supporto Tecnico,T02,2638.28,24,Sud Italia,In Ritardo
+710,15/08/2024,C0710,Cliente_710,Audit di Sicurezza,T01,9721.92,95,Estero,In Ritardo
+711,12/09/2024,C0711,Cliente_711,Audit di Sicurezza,T01,5407.74,50,Nord Italia,In Sospeso
+712,28/10/2024,C0712,Cliente_712,Sviluppo Web,T03,12995.28,135,Estero,In Sospeso
+713,09/04/2024,C0713,Cliente_713,Supporto Tecnico,T02,2309.59,23,Centro Italia,In Ritardo
+714,07/09/2024,C0714,Cliente_714,Audit di Sicurezza,T01,9752.57,89,Centro Italia,In Ritardo
+715,13/10/2024,C0715,Cliente_715,Supporto Tecnico,T04,2570.74,28,Estero,In Ritardo
+716,23/05/2024,C0716,Cliente_716,Sviluppo Web,T01,9838.29,100,Centro Italia,In Sospeso
+717,11/03/2024,C0717,Cliente_717,Audit di Sicurezza,T03,8839.39,84,Centro Italia,In Ritardo
+718,08/11/2024,C0718,Cliente_718,Supporto Tecnico,T04,3544.26,35,Nord Italia,In Ritardo
+719,13/06/2024,C0719,Cliente_719,Sviluppo Web,T03,13902.2,138,Sud Italia,In Ritardo
+720,19/01/2024,C0720,Cliente_720,Supporto Tecnico,T01,2119.44,20,Estero,In Ritardo
+721,02/10/2024,C0721,Cliente_721,Audit di Sicurezza,T02,7991.77,84,Nord Italia,In Sospeso
+722,04/04/2024,C0722,Cliente_722,Sviluppo Web,T02,20399.7,193,Sud Italia,In Ritardo
+723,30/03/2024,C0723,Cliente_723,Migrazione Cloud,T01,22317.14,217,Centro Italia,In Sospeso
+724,13/11/2024,C0724,Cliente_724,Audit di Sicurezza,T02,10323.6,94,Estero,Pagato
+725,14/05/2024,C0725,Cliente_725,Supporto Tecnico,T04,3355.23,34,Estero,In Sospeso
+726,07/04/2024,C0726,Cliente_726,Audit di Sicurezza,T04,7148.82,66,Nord Italia,In Sospeso
+727,26/12/2024,C0727,Cliente_727,Supporto Tecnico,T02,2482.32,25,Centro Italia,In Ritardo
+728,18/11/2024,C0728,Cliente_728,Supporto Tecnico,T02,2395.59,25,Nord Italia,In Sospeso
+729,24/10/2024,C0729,Cliente_729,Audit di Sicurezza,T04,8679.52,86,Nord Italia,In Ritardo
+730,22/10/2024,C0730,Cliente_730,Sviluppo Web,T03,17673.37,167,Nord Italia,In Sospeso
+731,20/09/2024,C0731,Cliente_731,Supporto Tecnico,T02,1887.27,20,Estero,In Ritardo
+732,31/08/2024,C0732,Cliente_732,Migrazione Cloud,T02,16029.42,168,Estero,In Sospeso
+733,25/01/2024,C0733,Cliente_733,Audit di Sicurezza,T02,8247.71,90,Estero,In Ritardo
+734,09/02/2024,C0734,Cliente_734,Sviluppo Web,T04,18827.91,185,Sud Italia,In Sospeso
+735,02/03/2024,C0735,Cliente_735,Sviluppo Web,T02,10107.33,100,Estero,In Ritardo
+736,29/01/2024,C0736,Cliente_736,Migrazione Cloud,T01,21100.01,220,Centro Italia,In Ritardo
+737,01/06/2024,C0737,Cliente_737,Audit di Sicurezza,T01,6659.36,66,Sud Italia,In Sospeso
+738,25/11/2024,C0738,Cliente_738,Audit di Sicurezza,T04,7183.11,79,Sud Italia,In Sospeso
+739,28/09/2024,C0739,Cliente_739,Audit di Sicurezza,T02,5773.32,57,Estero,In Sospeso
+740,15/11/2024,C0740,Cliente_740,Migrazione Cloud,T04,26623.21,249,Estero,Pagato
+741,31/08/2024,C0741,Cliente_741,Audit di Sicurezza,T04,8470.73,79,Nord Italia,Pagato
+742,11/02/2024,C0742,Cliente_742,Supporto Tecnico,T04,4349.7,40,Sud Italia,In Ritardo
+743,07/12/2024,C0743,Cliente_743,Supporto Tecnico,T04,4470.5,47,Nord Italia,Pagato
+744,03/09/2024,C0744,Cliente_744,Supporto Tecnico,T02,4789.87,49,Nord Italia,In Ritardo
+745,13/04/2024,C0745,Cliente_745,Migrazione Cloud,T02,15791.89,161,Centro Italia,In Ritardo
+746,09/06/2024,C0746,Cliente_746,Audit di Sicurezza,T01,7311.11,77,Estero,In Ritardo
+747,29/02/2024,C0747,Cliente_747,Supporto Tecnico,T01,3752.38,35,Nord Italia,Pagato
+748,21/02/2024,C0748,Cliente_748,Sviluppo Web,T03,11432.95,119,Sud Italia,In Sospeso
+749,06/06/2024,C0749,Cliente_749,Audit di Sicurezza,T01,9288.46,86,Nord Italia,In Sospeso
+750,02/06/2024,C0750,Cliente_750,Migrazione Cloud,T04,23148.69,247,Nord Italia,In Sospeso
+751,05/05/2024,C0751,Cliente_751,Supporto Tecnico,T03,3183.87,30,Estero,Pagato
+752,27/04/2024,C0752,Cliente_752,Sviluppo Web,T04,13298.93,129,Estero,In Ritardo
+753,17/01/2024,C0753,Cliente_753,Migrazione Cloud,T03,18769.95,201,Sud Italia,In Ritardo
+754,16/06/2024,C0754,Cliente_754,Sviluppo Web,T01,16428.76,168,Sud Italia,In Sospeso
+755,29/11/2024,C0755,Cliente_755,Sviluppo Web,T02,11580.32,108,Nord Italia,In Ritardo
+756,06/12/2024,C0756,Cliente_756,Sviluppo Web,T01,12698.95,130,Nord Italia,In Sospeso
+757,28/02/2024,C0757,Cliente_757,Sviluppo Web,T04,19687.26,198,Sud Italia,In Ritardo
+758,19/10/2024,C0758,Cliente_758,Sviluppo Web,T04,11350.29,109,Nord Italia,Pagato
+759,15/06/2024,C0759,Cliente_759,Supporto Tecnico,T03,2964.65,30,Centro Italia,In Sospeso
+760,28/12/2024,C0760,Cliente_760,Supporto Tecnico,T03,2798.84,26,Nord Italia,Pagato
+761,06/06/2024,C0761,Cliente_761,Supporto Tecnico,T02,3715.55,38,Centro Italia,In Ritardo
+762,24/03/2024,C0762,Cliente_762,Supporto Tecnico,T02,5234.34,48,Sud Italia,Pagato
+763,16/12/2024,C0763,Cliente_763,Audit di Sicurezza,T01,6775.64,70,Estero,In Ritardo
+764,13/08/2024,C0764,Cliente_764,Migrazione Cloud,T01,24541.5,249,Estero,In Ritardo
+765,28/05/2024,C0765,Cliente_765,Audit di Sicurezza,T02,8559.87,91,Estero,In Sospeso
+766,17/05/2024,C0766,Cliente_766,Sviluppo Web,T02,12458.86,124,Nord Italia,Pagato
+767,07/12/2024,C0767,Cliente_767,Supporto Tecnico,T02,4383.29,44,Centro Italia,In Sospeso
+768,01/08/2024,C0768,Cliente_768,Migrazione Cloud,T01,17426.3,188,Sud Italia,In Sospeso
+769,01/10/2024,C0769,Cliente_769,Sviluppo Web,T04,11299.98,118,Sud Italia,Pagato
+770,30/05/2024,C0770,Cliente_770,Audit di Sicurezza,T01,9967.83,93,Centro Italia,In Sospeso
+771,24/07/2024,C0771,Cliente_771,Migrazione Cloud,T01,21879.1,235,Centro Italia,Pagato
+772,07/09/2024,C0772,Cliente_772,Sviluppo Web,T04,17152.86,167,Estero,In Sospeso
+773,14/03/2024,C0773,Cliente_773,Supporto Tecnico,T03,3555.51,39,Sud Italia,In Ritardo
+774,24/08/2024,C0774,Cliente_774,Audit di Sicurezza,T01,9830.57,97,Estero,In Sospeso
+775,22/06/2024,C0775,Cliente_775,Migrazione Cloud,T03,18447.53,180,Sud Italia,Pagato
+776,30/04/2024,C0776,Cliente_776,Supporto Tecnico,T04,3292.36,34,Nord Italia,In Sospeso
+777,11/04/2024,C0777,Cliente_777,Migrazione Cloud,T01,23245.47,224,Centro Italia,In Sospeso
+778,20/02/2024,C0778,Cliente_778,Supporto Tecnico,T02,4775.42,45,Estero,In Sospeso
+779,26/12/2024,C0779,Cliente_779,Migrazione Cloud,T02,21188.35,224,Estero,In Sospeso
+780,21/05/2024,C0780,Cliente_780,Audit di Sicurezza,T03,5473.79,54,Nord Italia,In Ritardo
+781,19/01/2024,C0781,Cliente_781,Sviluppo Web,T03,12792.43,118,Nord Italia,In Sospeso
+782,25/05/2024,C0782,Cliente_782,Audit di Sicurezza,T01,7550.78,74,Sud Italia,In Sospeso
+783,06/08/2024,C0783,Cliente_783,Supporto Tecnico,T04,3655.26,40,Sud Italia,In Ritardo
+784,19/10/2024,C0784,Cliente_784,Sviluppo Web,T04,10824.3,105,Nord Italia,In Sospeso
+785,07/12/2024,C0785,Cliente_785,Supporto Tecnico,T03,3129.03,31,Nord Italia,In Ritardo
+786,25/12/2024,C0786,Cliente_786,Sviluppo Web,T01,13140.92,142,Estero,In Ritardo
+787,15/06/2024,C0787,Cliente_787,Audit di Sicurezza,T01,9892.02,97,Centro Italia,Pagato
+788,02/02/2024,C0788,Cliente_788,Migrazione Cloud,T03,20029.96,187,Sud Italia,In Sospeso
+789,09/02/2024,C0789,Cliente_789,Supporto Tecnico,T03,5236.15,49,Sud Italia,Pagato
+790,09/05/2024,C0790,Cliente_790,Migrazione Cloud,T04,20160.86,215,Estero,In Sospeso
+791,31/05/2024,C0791,Cliente_791,Sviluppo Web,T03,11997.32,127,Sud Italia,In Ritardo
+792,09/01/2024,C0792,Cliente_792,Audit di Sicurezza,T03,8075.52,89,Nord Italia,In Sospeso
+793,29/09/2024,C0793,Cliente_793,Sviluppo Web,T03,18917.24,176,Nord Italia,In Ritardo
+794,04/10/2024,C0794,Cliente_794,Migrazione Cloud,T02,17420.14,186,Centro Italia,In Sospeso
+795,18/09/2024,C0795,Cliente_795,Supporto Tecnico,T04,2321.57,23,Centro Italia,In Sospeso
+796,30/08/2024,C0796,Cliente_796,Supporto Tecnico,T03,3476.34,32,Nord Italia,Pagato
+797,23/08/2024,C0797,Cliente_797,Migrazione Cloud,T01,19880.38,199,Centro Italia,Pagato
+798,10/05/2024,C0798,Cliente_798,Supporto Tecnico,T02,3732.9,41,Sud Italia,In Ritardo
+799,23/03/2024,C0799,Cliente_799,Supporto Tecnico,T02,2045.5,20,Sud Italia,In Ritardo
+800,31/08/2024,C0800,Cliente_800,Supporto Tecnico,T04,4963.25,48,Sud Italia,Pagato
+801,23/12/2024,C0801,Cliente_801,Audit di Sicurezza,T02,6457.12,70,Nord Italia,In Ritardo
+802,20/04/2024,C0802,Cliente_802,Sviluppo Web,T04,14476.6,151,Estero,In Ritardo
+803,16/11/2024,C0803,Cliente_803,Supporto Tecnico,T04,2097.55,23,Nord Italia,In Sospeso
+804,18/02/2024,C0804,Cliente_804,Migrazione Cloud,T02,21320.58,224,Nord Italia,In Ritardo
+805,03/03/2024,C0805,Cliente_805,Supporto Tecnico,T04,5053.75,47,Centro Italia,Pagato
+806,03/07/2024,C0806,Cliente_806,Migrazione Cloud,T04,15592.65,154,Nord Italia,In Ritardo
+807,22/12/2024,C0807,Cliente_807,Sviluppo Web,T02,15487.01,143,Estero,Pagato
+808,03/05/2024,C0808,Cliente_808,Sviluppo Web,T03,16067.46,177,Nord Italia,In Sospeso
+809,09/07/2024,C0809,Cliente_809,Migrazione Cloud,T03,19992.14,199,Nord Italia,In Sospeso
+810,14/03/2024,C0810,Cliente_810,Migrazione Cloud,T02,19646.58,182,Estero,Pagato
+811,27/10/2024,C0811,Cliente_811,Audit di Sicurezza,T04,6768.5,64,Centro Italia,In Ritardo
+812,11/10/2024,C0812,Cliente_812,Sviluppo Web,T03,16745.13,171,Sud Italia,Pagato
+813,21/11/2024,C0813,Cliente_813,Supporto Tecnico,T04,2174.41,21,Nord Italia,In Sospeso
+814,05/07/2024,C0814,Cliente_814,Migrazione Cloud,T03,20229.84,214,Centro Italia,Pagato
+815,01/07/2024,C0815,Cliente_815,Audit di Sicurezza,T02,6136.24,62,Centro Italia,Pagato
+816,25/11/2024,C0816,Cliente_816,Supporto Tecnico,T01,3789.29,37,Estero,Pagato
+817,20/02/2024,C0817,Cliente_817,Supporto Tecnico,T03,1955.83,21,Estero,Pagato
+818,20/09/2024,C0818,Cliente_818,Audit di Sicurezza,T01,5057.32,52,Sud Italia,In Sospeso
+819,09/03/2024,C0819,Cliente_819,Sviluppo Web,T02,12249.23,130,Sud Italia,Pagato
+820,12/11/2024,C0820,Cliente_820,Audit di Sicurezza,T01,8686.24,81,Estero,In Sospeso
+821,28/07/2024,C0821,Cliente_821,Migrazione Cloud,T01,26035.72,243,Nord Italia,In Ritardo
+822,08/05/2024,C0822,Cliente_822,Supporto Tecnico,T01,2720.17,27,Estero,In Sospeso
+823,12/08/2024,C0823,Cliente_823,Migrazione Cloud,T02,19843.32,185,Sud Italia,In Ritardo
+824,14/12/2024,C0824,Cliente_824,Supporto Tecnico,T01,3759.94,38,Sud Italia,In Ritardo
+825,25/03/2024,C0825,Cliente_825,Audit di Sicurezza,T01,7417.24,68,Nord Italia,Pagato
+826,23/01/2024,C0826,Cliente_826,Audit di Sicurezza,T01,9820.1,99,Centro Italia,In Sospeso
+827,14/11/2024,C0827,Cliente_827,Sviluppo Web,T02,14694.27,134,Sud Italia,Pagato
+828,29/03/2024,C0828,Cliente_828,Supporto Tecnico,T04,2896.86,28,Estero,In Ritardo
+829,03/09/2024,C0829,Cliente_829,Supporto Tecnico,T04,2963.69,30,Centro Italia,In Sospeso
+830,17/05/2024,C0830,Cliente_830,Sviluppo Web,T04,14803.25,149,Sud Italia,In Ritardo
+831,05/06/2024,C0831,Cliente_831,Sviluppo Web,T02,10281.23,102,Sud Italia,Pagato
+832,22/08/2024,C0832,Cliente_832,Sviluppo Web,T04,10374.67,113,Sud Italia,Pagato
+833,21/03/2024,C0833,Cliente_833,Audit di Sicurezza,T03,5006.48,52,Sud Italia,In Sospeso
+834,16/04/2024,C0834,Cliente_834,Supporto Tecnico,T01,3845.57,40,Estero,In Sospeso
+835,10/11/2024,C0835,Cliente_835,Migrazione Cloud,T02,22797.49,218,Estero,In Ritardo
+836,24/07/2024,C0836,Cliente_836,Sviluppo Web,T01,19077.54,193,Sud Italia,In Ritardo
+837,01/07/2024,C0837,Cliente_837,Audit di Sicurezza,T04,4935.3,54,Estero,In Ritardo
+838,06/04/2024,C0838,Cliente_838,Audit di Sicurezza,T03,7777.3,84,Nord Italia,In Ritardo
+839,20/09/2024,C0839,Cliente_839,Migrazione Cloud,T03,19374.66,206,Sud Italia,Pagato
+840,20/12/2024,C0840,Cliente_840,Sviluppo Web,T03,16256.55,148,Estero,In Sospeso
+841,07/04/2024,C0841,Cliente_841,Supporto Tecnico,T03,3823.97,37,Centro Italia,In Ritardo
+842,21/12/2024,C0842,Cliente_842,Audit di Sicurezza,T01,6037.01,56,Centro Italia,In Ritardo
+843,09/12/2024,C0843,Cliente_843,Supporto Tecnico,T03,2329.87,25,Centro Italia,In Sospeso
+844,09/04/2024,C0844,Cliente_844,Supporto Tecnico,T04,4244.57,41,Nord Italia,Pagato
+845,30/01/2024,C0845,Cliente_845,Audit di Sicurezza,T02,8179.5,85,Nord Italia,In Ritardo
+846,23/10/2024,C0846,Cliente_846,Supporto Tecnico,T03,2482.32,24,Centro Italia,In Ritardo
+847,12/03/2024,C0847,Cliente_847,Migrazione Cloud,T03,17960.85,190,Estero,In Ritardo
+848,13/02/2024,C0848,Cliente_848,Sviluppo Web,T02,16837.1,182,Sud Italia,In Ritardo
+849,12/07/2024,C0849,Cliente_849,Sviluppo Web,T03,14155.41,130,Nord Italia,Pagato
+850,25/08/2024,C0850,Cliente_850,Audit di Sicurezza,T02,8459.2,85,Sud Italia,Pagato
+851,02/04/2024,C0851,Cliente_851,Migrazione Cloud,T01,15291.07,167,Sud Italia,In Sospeso
+852,30/03/2024,C0852,Cliente_852,Supporto Tecnico,T04,4254.24,44,Sud Italia,In Sospeso
+853,29/12/2024,C0853,Cliente_853,Sviluppo Web,T01,14260.03,143,Estero,In Ritardo
+854,01/12/2024,C0854,Cliente_854,Audit di Sicurezza,T04,5373.33,58,Centro Italia,In Sospeso
+855,10/11/2024,C0855,Cliente_855,Sviluppo Web,T04,11966.47,124,Estero,In Ritardo
+856,26/10/2024,C0856,Cliente_856,Sviluppo Web,T04,14306.97,152,Centro Italia,Pagato
+857,27/02/2024,C0857,Cliente_857,Migrazione Cloud,T01,22832.9,221,Centro Italia,In Ritardo
+858,11/10/2024,C0858,Cliente_858,Supporto Tecnico,T02,3193.05,35,Centro Italia,In Ritardo
+859,01/08/2024,C0859,Cliente_859,Sviluppo Web,T04,17853.62,190,Nord Italia,In Ritardo
+860,26/02/2024,C0860,Cliente_860,Supporto Tecnico,T04,2367.44,26,Estero,Pagato
+861,13/07/2024,C0861,Cliente_861,Audit di Sicurezza,T02,9238.34,85,Centro Italia,Pagato
+862,04/11/2024,C0862,Cliente_862,Sviluppo Web,T01,17085.94,182,Estero,Pagato
+863,06/07/2024,C0863,Cliente_863,Supporto Tecnico,T01,3014.75,30,Nord Italia,In Ritardo
+864,27/09/2024,C0864,Cliente_864,Sviluppo Web,T01,13410.48,125,Sud Italia,Pagato
+865,31/01/2024,C0865,Cliente_865,Supporto Tecnico,T04,4878.19,49,Centro Italia,In Sospeso
+866,02/06/2024,C0866,Cliente_866,Audit di Sicurezza,T02,8778.39,80,Centro Italia,In Sospeso
+867,14/12/2024,C0867,Cliente_867,Sviluppo Web,T04,11849.92,122,Sud Italia,Pagato
+868,16/05/2024,C0868,Cliente_868,Supporto Tecnico,T01,4179.52,40,Nord Italia,Pagato
+869,10/05/2024,C0869,Cliente_869,Audit di Sicurezza,T03,5608.33,57,Nord Italia,In Ritardo
+870,23/06/2024,C0870,Cliente_870,Supporto Tecnico,T01,3758.28,38,Nord Italia,In Sospeso
+871,23/11/2024,C0871,Cliente_871,Supporto Tecnico,T02,4959.05,46,Nord Italia,In Sospeso
+872,19/03/2024,C0872,Cliente_872,Supporto Tecnico,T02,5329.03,49,Estero,Pagato
+873,08/03/2024,C0873,Cliente_873,Sviluppo Web,T01,15172.96,138,Centro Italia,Pagato
+874,23/05/2024,C0874,Cliente_874,Migrazione Cloud,T03,18997.68,183,Sud Italia,Pagato
+875,17/09/2024,C0875,Cliente_875,Supporto Tecnico,T02,4463.89,48,Nord Italia,In Ritardo
+876,21/12/2024,C0876,Cliente_876,Supporto Tecnico,T03,3396.64,32,Estero,In Ritardo
+877,25/08/2024,C0877,Cliente_877,Sviluppo Web,T04,15205.16,141,Nord Italia,Pagato
+878,02/05/2024,C0878,Cliente_878,Migrazione Cloud,T01,19880.27,211,Nord Italia,Pagato
+879,19/01/2024,C0879,Cliente_879,Audit di Sicurezza,T03,4843.71,52,Nord Italia,In Ritardo
+880,29/11/2024,C0880,Cliente_880,Supporto Tecnico,T03,4677.49,48,Sud Italia,Pagato
+881,25/05/2024,C0881,Cliente_881,Audit di Sicurezza,T01,6467.27,63,Centro Italia,In Sospeso
+882,29/08/2024,C0882,Cliente_882,Supporto Tecnico,T01,5252.03,50,Sud Italia,Pagato
+883,24/06/2024,C0883,Cliente_883,Sviluppo Web,T02,16181.99,168,Nord Italia,In Ritardo
+884,12/09/2024,C0884,Cliente_884,Audit di Sicurezza,T04,10004.84,93,Sud Italia,Pagato
+885,17/01/2024,C0885,Cliente_885,Migrazione Cloud,T02,25364.49,236,Nord Italia,In Ritardo
+886,07/02/2024,C0886,Cliente_886,Sviluppo Web,T01,15346.75,151,Sud Italia,Pagato
+887,04/03/2024,C0887,Cliente_887,Audit di Sicurezza,T04,4729.4,51,Estero,In Ritardo
+888,11/05/2024,C0888,Cliente_888,Sviluppo Web,T04,13010.28,124,Centro Italia,Pagato
+889,09/08/2024,C0889,Cliente_889,Sviluppo Web,T03,15155.09,152,Nord Italia,Pagato
+890,30/01/2024,C0890,Cliente_890,Audit di Sicurezza,T03,8902.7,91,Nord Italia,In Sospeso
+891,29/06/2024,C0891,Cliente_891,Sviluppo Web,T03,15472.98,156,Estero,In Ritardo
+892,27/01/2024,C0892,Cliente_892,Audit di Sicurezza,T04,9504.02,96,Nord Italia,Pagato
+893,13/01/2024,C0893,Cliente_893,Migrazione Cloud,T04,19264.87,178,Nord Italia,Pagato
+894,03/03/2024,C0894,Cliente_894,Sviluppo Web,T03,11566.35,119,Estero,Pagato
+895,26/11/2024,C0895,Cliente_895,Supporto Tecnico,T01,2369.54,24,Nord Italia,In Sospeso
+896,12/02/2024,C0896,Cliente_896,Audit di Sicurezza,T01,5337.38,51,Estero,In Ritardo
+897,04/05/2024,C0897,Cliente_897,Migrazione Cloud,T04,19284.51,181,Nord Italia,In Sospeso
+898,09/09/2024,C0898,Cliente_898,Migrazione Cloud,T04,18030.2,188,Centro Italia,In Sospeso
+899,07/12/2024,C0899,Cliente_899,Supporto Tecnico,T04,3878.35,37,Nord Italia,In Sospeso
+900,03/07/2024,C0900,Cliente_900,Migrazione Cloud,T04,18680.67,195,Estero,In Ritardo
+901,14/06/2024,C0901,Cliente_901,Sviluppo Web,T03,9900.57,100,Sud Italia,In Ritardo
+902,14/12/2024,C0902,Cliente_902,Supporto Tecnico,T04,4557.13,50,Sud Italia,In Sospeso
+903,04/10/2024,C0903,Cliente_903,Sviluppo Web,T04,13799.69,129,Sud Italia,In Ritardo
+904,08/06/2024,C0904,Cliente_904,Audit di Sicurezza,T03,7245.92,67,Sud Italia,In Ritardo
+905,12/04/2024,C0905,Cliente_905,Sviluppo Web,T02,12430.91,117,Centro Italia,In Sospeso
+906,30/07/2024,C0906,Cliente_906,Migrazione Cloud,T03,22123.6,243,Sud Italia,Pagato
+907,15/06/2024,C0907,Cliente_907,Migrazione Cloud,T03,19472.64,194,Centro Italia,In Sospeso
+908,04/04/2024,C0908,Cliente_908,Migrazione Cloud,T03,21826.07,208,Sud Italia,In Ritardo
+909,04/06/2024,C0909,Cliente_909,Audit di Sicurezza,T01,9971.49,95,Centro Italia,Pagato
+910,14/05/2024,C0910,Cliente_910,Supporto Tecnico,T01,2949.72,28,Sud Italia,Pagato
+911,10/06/2024,C0911,Cliente_911,Sviluppo Web,T01,17860.16,174,Sud Italia,In Sospeso
+912,17/12/2024,C0912,Cliente_912,Supporto Tecnico,T03,2470.92,23,Sud Italia,In Sospeso
+913,20/04/2024,C0913,Cliente_913,Migrazione Cloud,T02,17750.95,195,Estero,In Sospeso
+914,13/07/2024,C0914,Cliente_914,Supporto Tecnico,T02,3755.93,36,Sud Italia,Pagato
+915,27/09/2024,C0915,Cliente_915,Audit di Sicurezza,T01,9183.46,93,Estero,In Sospeso
+916,31/01/2024,C0916,Cliente_916,Supporto Tecnico,T03,2948.59,32,Estero,In Ritardo
+917,29/03/2024,C0917,Cliente_917,Audit di Sicurezza,T02,9575.98,96,Sud Italia,In Sospeso
+918,02/05/2024,C0918,Cliente_918,Migrazione Cloud,T03,23253.14,236,Nord Italia,Pagato
+919,18/07/2024,C0919,Cliente_919,Migrazione Cloud,T02,15636.81,172,Estero,Pagato
+920,21/08/2024,C0920,Cliente_920,Supporto Tecnico,T04,4401.43,44,Estero,In Ritardo
+921,28/04/2024,C0921,Cliente_921,Sviluppo Web,T01,16132.43,150,Estero,In Ritardo
+922,26/07/2024,C0922,Cliente_922,Migrazione Cloud,T04,16000.49,156,Centro Italia,Pagato
+923,10/02/2024,C0923,Cliente_923,Migrazione Cloud,T02,19570.42,196,Estero,In Sospeso
+924,14/06/2024,C0924,Cliente_924,Audit di Sicurezza,T01,5616.93,52,Nord Italia,Pagato
+925,06/12/2024,C0925,Cliente_925,Audit di Sicurezza,T03,9709.88,90,Centro Italia,In Ritardo
+926,10/01/2024,C0926,Cliente_926,Supporto Tecnico,T04,3605.28,37,Nord Italia,In Sospeso
+927,25/08/2024,C0927,Cliente_927,Sviluppo Web,T01,16110.8,152,Centro Italia,In Ritardo
+928,03/09/2024,C0928,Cliente_928,Migrazione Cloud,T02,15262.77,157,Centro Italia,In Sospeso
+929,16/11/2024,C0929,Cliente_929,Audit di Sicurezza,T04,6441.67,66,Estero,In Ritardo
+930,22/11/2024,C0930,Cliente_930,Audit di Sicurezza,T01,9913.92,91,Centro Italia,In Sospeso
+931,29/11/2024,C0931,Cliente_931,Migrazione Cloud,T03,20573.05,225,Centro Italia,In Sospeso
+932,15/12/2024,C0932,Cliente_932,Migrazione Cloud,T03,22688.86,236,Sud Italia,In Ritardo
+933,11/10/2024,C0933,Cliente_933,Audit di Sicurezza,T02,5032.81,52,Centro Italia,In Sospeso
+934,16/02/2024,C0934,Cliente_934,Sviluppo Web,T03,13548.61,146,Centro Italia,In Sospeso
+935,13/07/2024,C0935,Cliente_935,Migrazione Cloud,T01,18356.15,187,Centro Italia,In Sospeso
+936,29/11/2024,C0936,Cliente_936,Migrazione Cloud,T03,17047.99,158,Centro Italia,Pagato
+937,02/07/2024,C0937,Cliente_937,Sviluppo Web,T04,15421.07,160,Sud Italia,In Sospeso
+938,27/01/2024,C0938,Cliente_938,Supporto Tecnico,T03,3849.47,39,Centro Italia,Pagato
+939,13/05/2024,C0939,Cliente_939,Audit di Sicurezza,T04,5005.94,52,Sud Italia,In Sospeso
+940,08/06/2024,C0940,Cliente_940,Sviluppo Web,T04,15492.82,155,Nord Italia,In Ritardo
+941,07/10/2024,C0941,Cliente_941,Migrazione Cloud,T02,24813.47,236,Nord Italia,In Ritardo
+942,17/04/2024,C0942,Cliente_942,Sviluppo Web,T02,16832.49,168,Centro Italia,Pagato
+943,10/10/2024,C0943,Cliente_943,Supporto Tecnico,T01,5039.71,47,Estero,In Sospeso
+944,01/09/2024,C0944,Cliente_944,Migrazione Cloud,T04,21628.52,198,Nord Italia,In Sospeso
+945,13/04/2024,C0945,Cliente_945,Migrazione Cloud,T04,19761.86,190,Centro Italia,In Sospeso
+946,23/02/2024,C0946,Cliente_946,Sviluppo Web,T03,12964.23,144,Estero,Pagato
+947,09/02/2024,C0947,Cliente_947,Audit di Sicurezza,T01,4804.84,50,Nord Italia,In Ritardo
+948,05/07/2024,C0948,Cliente_948,Migrazione Cloud,T02,25582.82,238,Centro Italia,In Sospeso
+949,02/02/2024,C0949,Cliente_949,Migrazione Cloud,T01,19931.95,217,Estero,In Sospeso
+950,24/06/2024,C0950,Cliente_950,Sviluppo Web,T01,18306.83,176,Centro Italia,Pagato
+951,03/12/2024,C0951,Cliente_951,Supporto Tecnico,T01,3730.68,40,Sud Italia,Pagato
+952,09/09/2024,C0952,Cliente_952,Audit di Sicurezza,T03,9402.58,93,Centro Italia,Pagato
+953,11/04/2024,C0953,Cliente_953,Audit di Sicurezza,T03,8183.79,87,Estero,In Sospeso
+954,09/10/2024,C0954,Cliente_954,Migrazione Cloud,T02,22192.88,238,Estero,Pagato
+955,24/02/2024,C0955,Cliente_955,Supporto Tecnico,T03,2546.13,28,Centro Italia,In Ritardo
+956,20/07/2024,C0956,Cliente_956,Migrazione Cloud,T04,19489.84,201,Nord Italia,In Ritardo
+957,14/09/2024,C0957,Cliente_957,Sviluppo Web,T04,17697.64,179,Sud Italia,In Sospeso
+958,28/03/2024,C0958,Cliente_958,Audit di Sicurezza,T02,9653.81,99,Estero,In Sospeso
+959,14/09/2024,C0959,Cliente_959,Migrazione Cloud,T03,18617.34,184,Sud Italia,In Sospeso
+960,24/08/2024,C0960,Cliente_960,Supporto Tecnico,T01,3313.01,36,Sud Italia,In Ritardo
+961,25/01/2024,C0961,Cliente_961,Sviluppo Web,T02,10830.76,114,Sud Italia,Pagato
+962,28/04/2024,C0962,Cliente_962,Sviluppo Web,T02,17325.97,168,Estero,Pagato
+963,04/02/2024,C0963,Cliente_963,Sviluppo Web,T04,11653.6,126,Nord Italia,In Sospeso
+964,02/08/2024,C0964,Cliente_964,Audit di Sicurezza,T02,5551.98,55,Centro Italia,In Ritardo
+965,29/02/2024,C0965,Cliente_965,Audit di Sicurezza,T03,7967.93,84,Centro Italia,Pagato
+966,11/08/2024,C0966,Cliente_966,Migrazione Cloud,T02,19738.76,218,Estero,Pagato
+967,01/11/2024,C0967,Cliente_967,Supporto Tecnico,T04,2194.92,22,Centro Italia,In Sospeso
+968,04/06/2024,C0968,Cliente_968,Supporto Tecnico,T03,5153.95,47,Centro Italia,In Sospeso
+969,21/02/2024,C0969,Cliente_969,Audit di Sicurezza,T04,5480.58,58,Nord Italia,In Sospeso
+970,25/06/2024,C0970,Cliente_970,Audit di Sicurezza,T01,8997.93,89,Centro Italia,In Ritardo
+971,22/03/2024,C0971,Cliente_971,Audit di Sicurezza,T02,8562.29,86,Sud Italia,Pagato
+972,25/04/2024,C0972,Cliente_972,Supporto Tecnico,T03,4741.33,50,Sud Italia,In Ritardo
+973,18/02/2024,C0973,Cliente_973,Sviluppo Web,T01,10009.51,104,Centro Italia,In Sospeso
+974,07/04/2024,C0974,Cliente_974,Supporto Tecnico,T03,2851.43,31,Nord Italia,In Sospeso
+975,08/01/2024,C0975,Cliente_975,Supporto Tecnico,T02,4585.77,43,Centro Italia,Pagato
+976,30/06/2024,C0976,Cliente_976,Migrazione Cloud,T01,23371.05,221,Sud Italia,In Sospeso
+977,24/08/2024,C0977,Cliente_977,Sviluppo Web,T02,17034.55,182,Sud Italia,In Sospeso
+978,27/03/2024,C0978,Cliente_978,Audit di Sicurezza,T03,5871.87,54,Centro Italia,In Sospeso
+979,03/10/2024,C0979,Cliente_979,Audit di Sicurezza,T04,6270.2,68,Estero,In Ritardo
+980,05/12/2024,C0980,Cliente_980,Sviluppo Web,T02,11309.32,110,Sud Italia,In Ritardo
+981,03/12/2024,C0981,Cliente_981,Sviluppo Web,T01,10692.04,105,Centro Italia,In Ritardo
+982,09/11/2024,C0982,Cliente_982,Audit di Sicurezza,T04,4898.0,53,Estero,Pagato
+983,06/05/2024,C0983,Cliente_983,Supporto Tecnico,T03,2178.35,20,Sud Italia,In Ritardo
+984,20/06/2024,C0984,Cliente_984,Sviluppo Web,T03,15658.94,143,Sud Italia,In Sospeso
+985,20/04/2024,C0985,Cliente_985,Supporto Tecnico,T03,2044.17,21,Nord Italia,In Sospeso
+986,02/08/2024,C0986,Cliente_986,Sviluppo Web,T04,18514.31,181,Nord Italia,Pagato
+987,29/06/2024,C0987,Cliente_987,Audit di Sicurezza,T01,6485.16,67,Centro Italia,Pagato
+988,17/08/2024,C0988,Cliente_988,Sviluppo Web,T01,14357.3,147,Nord Italia,In Ritardo
+989,15/01/2024,C0989,Cliente_989,Supporto Tecnico,T02,5213.36,49,Estero,In Sospeso
+990,20/09/2024,C0990,Cliente_990,Supporto Tecnico,T03,3399.9,34,Centro Italia,In Sospeso
+991,22/02/2024,C0991,Cliente_991,Migrazione Cloud,T01,19242.29,210,Nord Italia,In Sospeso
+992,03/09/2024,C0992,Cliente_992,Audit di Sicurezza,T02,5846.77,64,Nord Italia,In Sospeso
+993,26/07/2024,C0993,Cliente_993,Migrazione Cloud,T03,18815.4,186,Estero,Pagato
+994,19/01/2024,C0994,Cliente_994,Migrazione Cloud,T03,18069.64,177,Nord Italia,Pagato
+995,29/03/2024,C0995,Cliente_995,Migrazione Cloud,T01,17816.5,173,Centro Italia,Pagato
+996,03/09/2024,C0996,Cliente_996,Audit di Sicurezza,T03,8462.18,86,Nord Italia,Pagato
+997,21/11/2024,C0997,Cliente_997,Migrazione Cloud,T03,21277.94,200,Sud Italia,Pagato
+998,30/10/2024,C0998,Cliente_998,Audit di Sicurezza,T03,6395.83,66,Estero,In Sospeso
+999,12/08/2024,C0999,Cliente_999,Audit di Sicurezza,T02,6429.65,64,Sud Italia,Pagato
+1000,24/02/2024,C1000,Cliente_1000,Migrazione Cloud,T03,15461.05,167,Nord Italia,In Ritardo
